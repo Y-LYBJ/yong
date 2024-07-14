@@ -113,6 +113,7 @@
             Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
+            MaximizeBox = false;
             Name = "StuLoad";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "学生端登录";

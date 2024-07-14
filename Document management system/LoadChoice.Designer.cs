@@ -63,6 +63,7 @@
             ClientSize = new Size(368, 284);
             Controls.Add(teacher);
             Controls.Add(button1);
+            MaximizeBox = false;
             Name = "LoadChoice";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "文章投稿与稿件管理系统登录";

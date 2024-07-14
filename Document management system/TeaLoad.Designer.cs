@@ -89,6 +89,7 @@
             Controls.Add(textBox1);
             Controls.Add(label2);
             Controls.Add(label1);
+            MaximizeBox = false;
             Name = "TeaLoad";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "教师端登录";
