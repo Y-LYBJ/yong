@@ -1,0 +1,19 @@
+C:\Users\野原新之助\Desktop\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.LoadChoice.resources
+C:\Users\野原新之助\Desktop\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.StuLoad.resources
+C:\Users\野原新之助\Desktop\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.TeaLoad.resources
+C:\Users\野原新之助\Desktop\yong\Document management system\obj\Debug\net8.0-windows\Document management system.csproj.GenerateResource.cache
+C:\Users\野原新之助\Desktop\yong\Document management system\obj\Debug\net8.0-windows\Document management system.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\野原新之助\Desktop\yong\Document management system\obj\Debug\net8.0-windows\Document management system.AssemblyInfoInputs.cache
+C:\Users\野原新之助\Desktop\yong\Document management system\obj\Debug\net8.0-windows\Document management system.AssemblyInfo.cs
+C:\Users\野原新之助\Desktop\yong\Document management system\obj\Debug\net8.0-windows\Document management system.csproj.CoreCompileInputs.cache
+C:\Users\野原新之助\Desktop\yong\Document management system\obj\Debug\net8.0-windows\Document management system.sourcelink.json
+C:\Users\野原新之助\Desktop\yong\Document management system\bin\Debug\net8.0-windows\Document management system.exe
+C:\Users\野原新之助\Desktop\yong\Document management system\bin\Debug\net8.0-windows\Document management system.deps.json
+C:\Users\野原新之助\Desktop\yong\Document management system\bin\Debug\net8.0-windows\Document management system.runtimeconfig.json
+C:\Users\野原新之助\Desktop\yong\Document management system\bin\Debug\net8.0-windows\Document management system.dll
+C:\Users\野原新之助\Desktop\yong\Document management system\bin\Debug\net8.0-windows\Document management system.pdb
+C:\Users\野原新之助\Desktop\yong\Document management system\obj\Debug\net8.0-windows\Document management system.dll
+C:\Users\野原新之助\Desktop\yong\Document management system\obj\Debug\net8.0-windows\refint\Document management system.dll
+C:\Users\野原新之助\Desktop\yong\Document management system\obj\Debug\net8.0-windows\Document management system.pdb
+C:\Users\野原新之助\Desktop\yong\Document management system\obj\Debug\net8.0-windows\Document management system.genruntimeconfig.cache
+C:\Users\野原新之助\Desktop\yong\Document management system\obj\Debug\net8.0-windows\ref\Document management system.dll

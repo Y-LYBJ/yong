@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\野原新之助\\Desktop\\Project\\yong\\Document management system\\Document management system.csproj",
+      "projectUniqueName": "C:\\Users\\野原新之助\\Desktop\\yong\\Document management system\\Document management system.csproj",
       "projectName": "Document management system",
-      "projectPath": "C:\\Users\\野原新之助\\Desktop\\Project\\yong\\Document management system\\Document management system.csproj",
+      "projectPath": "C:\\Users\\野原新之助\\Desktop\\yong\\Document management system\\Document management system.csproj",
       "packagesPath": "C:\\Users\\野原新之助\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\野原新之助\\Desktop\\Project\\yong\\Document management system\\obj\\",
+      "outputPath": "C:\\Users\\野原新之助\\Desktop\\yong\\Document management system\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\野原新之助\\AppData\\Roaming\\NuGet\\NuGet.Config",
