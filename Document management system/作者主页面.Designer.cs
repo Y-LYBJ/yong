@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             Close = new Button();
+            lblAuthor = new Label();
+            lblSubmission = new Button();
+            btnInquire = new Button();
+            btnInformation = new Button();
             SuspendLayout();
             // 
             // Close
@@ -38,27 +42,78 @@
             Close.BackgroundImage = Properties.Resources.关闭按钮;
             Close.BackgroundImageLayout = ImageLayout.Stretch;
             Close.FlatStyle = FlatStyle.Popup;
-            Close.Location = new Point(12, 12);
+            Close.Location = new Point(560, 11);
+            Close.Margin = new Padding(2);
             Close.Name = "Close";
-            Close.Size = new Size(48, 43);
+            Close.Size = new Size(39, 37);
             Close.TabIndex = 1;
             Close.UseVisualStyleBackColor = false;
             Close.Click += Close_Click;
             // 
+            // lblAuthor
+            // 
+            lblAuthor.AutoSize = true;
+            lblAuthor.Font = new Font("宋体", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            lblAuthor.Location = new Point(12, 11);
+            lblAuthor.Name = "lblAuthor";
+            lblAuthor.Size = new Size(79, 23);
+            lblAuthor.TabIndex = 2;
+            lblAuthor.Text = "你好，";
+            // 
+            // lblSubmission
+            // 
+            lblSubmission.Font = new Font("黑体", 13.8F);
+            lblSubmission.Location = new Point(235, 132);
+            lblSubmission.Name = "lblSubmission";
+            lblSubmission.Size = new Size(114, 43);
+            lblSubmission.TabIndex = 3;
+            lblSubmission.Text = "我要投稿";
+            lblSubmission.UseVisualStyleBackColor = true;
+            // 
+            // btnInquire
+            // 
+            btnInquire.Font = new Font("黑体", 13.8F);
+            btnInquire.Location = new Point(235, 206);
+            btnInquire.Name = "btnInquire";
+            btnInquire.Size = new Size(114, 43);
+            btnInquire.TabIndex = 4;
+            btnInquire.Text = "稿件查询";
+            btnInquire.UseVisualStyleBackColor = true;
+            // 
+            // btnInformation
+            // 
+            btnInformation.Font = new Font("黑体", 13.8F);
+            btnInformation.Location = new Point(235, 279);
+            btnInformation.Name = "btnInformation";
+            btnInformation.Size = new Size(114, 43);
+            btnInformation.TabIndex = 5;
+            btnInformation.Text = "个人资料";
+            btnInformation.UseVisualStyleBackColor = true;
+            // 
             // 作者主页面
             // 
-            AutoScaleDimensions = new SizeF(11F, 24F);
+            AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(885, 704);
+            ClientSize = new Size(610, 450);
+            Controls.Add(btnInformation);
+            Controls.Add(btnInquire);
+            Controls.Add(lblSubmission);
+            Controls.Add(lblAuthor);
             Controls.Add(Close);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(2);
             Name = "作者主页面";
             Text = "作者主页面";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button Close;
+        private Label lblAuthor;
+        private Button lblSubmission;
+        private Button btnInquire;
+        private Button btnInformation;
     }
 }
