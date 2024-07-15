@@ -30,9 +30,9 @@
         {
             label1 = new Label();
             label2 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            button2 = new Button();
+            Account = new TextBox();
+            Password = new TextBox();
+            autior = new Button();
             button3 = new Button();
             button1 = new Button();
             SuspendLayout();
@@ -57,29 +57,30 @@
             label2.TabIndex = 1;
             label2.Text = "密码：";
             // 
-            // textBox1
+            // Account
             // 
-            textBox1.Location = new Point(161, 64);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(350, 30);
-            textBox1.TabIndex = 2;
+            Account.Location = new Point(161, 64);
+            Account.Name = "Account";
+            Account.Size = new Size(350, 30);
+            Account.TabIndex = 2;
             // 
-            // textBox2
+            // Password
             // 
-            textBox2.Location = new Point(161, 137);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(350, 30);
-            textBox2.TabIndex = 3;
+            Password.Location = new Point(161, 137);
+            Password.Name = "Password";
+            Password.Size = new Size(350, 30);
+            Password.TabIndex = 3;
             // 
-            // button2
+            // autior
             // 
-            button2.FlatStyle = FlatStyle.Popup;
-            button2.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            button2.Location = new Point(56, 207);
-            button2.Name = "button2";
-            button2.Size = new Size(132, 44);
-            button2.TabIndex = 5;
-            button2.Text = "作者登录";
+            autior.FlatStyle = FlatStyle.Popup;
+            autior.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            autior.Location = new Point(56, 207);
+            autior.Name = "autior";
+            autior.Size = new Size(132, 44);
+            autior.TabIndex = 5;
+            autior.Text = "作者登录";
+            autior.Click += autior_Click;
             // 
             // button3
             // 
@@ -90,6 +91,7 @@
             button3.Size = new Size(132, 44);
             button3.TabIndex = 6;
             button3.Text = "主编登录";
+            button3.Click += button3_Click;
             // 
             // button1
             // 
@@ -100,6 +102,7 @@
             button1.Size = new Size(132, 44);
             button1.TabIndex = 7;
             button1.Text = "编辑登录";
+            button1.Click += button1_Click;
             // 
             // StuLoad
             // 
@@ -108,9 +111,9 @@
             ClientSize = new Size(569, 296);
             Controls.Add(button1);
             Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(autior);
+            Controls.Add(Password);
+            Controls.Add(Account);
             Controls.Add(label2);
             Controls.Add(label1);
             MaximizeBox = false;
@@ -125,9 +128,9 @@
 
         private Label label1;
         private Label label2;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Button button2;
+        private TextBox Account;
+        private TextBox Password;
+        private Button autior;
         private Button button3;
         private Button button1;
     }

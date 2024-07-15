@@ -16,5 +16,10 @@ namespace Document_management_system
         {
             InitializeComponent();
         }
+
+        private void Close_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

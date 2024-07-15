@@ -21,3 +21,12 @@ C:\Users\野原新之助\Desktop\yong\Document management system\obj\Debug\net8.
 C:\Users\野原新之助\Desktop\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.作者主页面.resources
 C:\Users\野原新之助\Desktop\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.教师主页面.resources
 C:\Users\野原新之助\Desktop\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.编辑主页面.resources
+C:\Users\野原新之助\Desktop\yong\Document management system\obj\Debug\net8.0-windows\Document management system.csproj.AssemblyReference.cache
+C:\Users\野原新之助\Desktop\yong\Document management system\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\野原新之助\Desktop\yong\Document management system\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\野原新之助\Desktop\yong\Document management system\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\野原新之助\Desktop\yong\Document management system\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\野原新之助\Desktop\yong\Document management system\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\野原新之助\Desktop\yong\Document management system\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\野原新之助\Desktop\yong\Document management system\obj\Debug\net8.0-windows\Document.1000B8D9.Up2Date
+C:\Users\野原新之助\Desktop\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.Properties.Resources.resources

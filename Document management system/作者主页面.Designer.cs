@@ -28,13 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Close = new Button();
             SuspendLayout();
+            // 
+            // Close
+            // 
+            Close.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            Close.BackColor = SystemColors.ButtonHighlight;
+            Close.BackgroundImage = Properties.Resources.关闭按钮;
+            Close.BackgroundImageLayout = ImageLayout.Stretch;
+            Close.FlatStyle = FlatStyle.Popup;
+            Close.Location = new Point(12, 12);
+            Close.Name = "Close";
+            Close.Size = new Size(48, 43);
+            Close.TabIndex = 1;
+            Close.UseVisualStyleBackColor = false;
+            Close.Click += Close_Click;
             // 
             // 作者主页面
             // 
             AutoScaleDimensions = new SizeF(11F, 24F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(885, 704);
+            Controls.Add(Close);
             FormBorderStyle = FormBorderStyle.None;
             Name = "作者主页面";
             Text = "作者主页面";
@@ -42,5 +58,7 @@
         }
 
         #endregion
+
+        private Button Close;
     }
 }
