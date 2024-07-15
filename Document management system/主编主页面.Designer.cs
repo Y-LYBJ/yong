@@ -30,8 +30,8 @@
         {
             Close = new Button();
             lblChiefEditor = new Label();
-            btnCensor = new Button();
-            btnDrafting = new Button();
+            BtnCensor = new Button();
+            BtnDrafting = new Button();
             SuspendLayout();
             // 
             // Close
@@ -42,7 +42,7 @@
             Close.BackgroundImageLayout = ImageLayout.Stretch;
             Close.FlatStyle = FlatStyle.Popup;
             Close.Location = new Point(560, 11);
-            Close.Margin = new Padding(2, 2, 2, 2);
+            Close.Margin = new Padding(2);
             Close.Name = "Close";
             Close.Size = new Size(39, 36);
             Close.TabIndex = 0;
@@ -59,37 +59,37 @@
             lblChiefEditor.TabIndex = 1;
             lblChiefEditor.Text = "你好，";
             // 
-            // btnCensor
+            // BtnCensor
             // 
-            btnCensor.Font = new Font("黑体", 13.8F);
-            btnCensor.Location = new Point(233, 134);
-            btnCensor.Name = "btnCensor";
-            btnCensor.Size = new Size(123, 51);
-            btnCensor.TabIndex = 2;
-            btnCensor.Text = "审查稿件";
-            btnCensor.UseVisualStyleBackColor = true;
+            BtnCensor.Font = new Font("黑体", 13.8F);
+            BtnCensor.Location = new Point(233, 134);
+            BtnCensor.Name = "BtnCensor";
+            BtnCensor.Size = new Size(123, 51);
+            BtnCensor.TabIndex = 2;
+            BtnCensor.Text = "审查稿件";
+            BtnCensor.UseVisualStyleBackColor = true;
             // 
-            // btnDrafting
+            // BtnDrafting
             // 
-            btnDrafting.Font = new Font("黑体", 13.8F);
-            btnDrafting.Location = new Point(233, 234);
-            btnDrafting.Name = "btnDrafting";
-            btnDrafting.Size = new Size(123, 51);
-            btnDrafting.TabIndex = 3;
-            btnDrafting.Text = "拟定排期";
-            btnDrafting.UseVisualStyleBackColor = true;
+            BtnDrafting.Font = new Font("黑体", 13.8F);
+            BtnDrafting.Location = new Point(233, 234);
+            BtnDrafting.Name = "BtnDrafting";
+            BtnDrafting.Size = new Size(123, 51);
+            BtnDrafting.TabIndex = 3;
+            BtnDrafting.Text = "拟定排期";
+            BtnDrafting.UseVisualStyleBackColor = true;
             // 
             // 主编主页面
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(610, 450);
-            Controls.Add(btnDrafting);
-            Controls.Add(btnCensor);
+            Controls.Add(BtnDrafting);
+            Controls.Add(BtnCensor);
             Controls.Add(lblChiefEditor);
             Controls.Add(Close);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "主编主页面";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "主编主页面";
@@ -101,7 +101,7 @@
 
         private Button Close;
         private Label lblChiefEditor;
-        private Button btnCensor;
-        private Button btnDrafting;
+        private Button BtnCensor;
+        private Button BtnDrafting;
     }
 }

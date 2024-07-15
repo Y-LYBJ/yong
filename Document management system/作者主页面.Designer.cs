@@ -30,9 +30,9 @@
         {
             Close = new Button();
             lblAuthor = new Label();
-            btnSubmission = new Button();
-            btnInquire = new Button();
-            btnInformation = new Button();
+            BtnSubmission = new Button();
+            BtnInquire = new Button();
+            BtnInformation = new Button();
             SuspendLayout();
             // 
             // Close
@@ -60,44 +60,44 @@
             lblAuthor.TabIndex = 2;
             lblAuthor.Text = "你好，";
             // 
-            // btnSubmission
+            // BtnSubmission
             // 
-            btnSubmission.Font = new Font("黑体", 13.8F);
-            btnSubmission.Location = new Point(235, 132);
-            btnSubmission.Name = "btnSubmission";
-            btnSubmission.Size = new Size(114, 43);
-            btnSubmission.TabIndex = 3;
-            btnSubmission.Text = "我要投稿";
-            btnSubmission.UseVisualStyleBackColor = true;
+            BtnSubmission.Font = new Font("黑体", 13.8F);
+            BtnSubmission.Location = new Point(235, 132);
+            BtnSubmission.Name = "BtnSubmission";
+            BtnSubmission.Size = new Size(114, 43);
+            BtnSubmission.TabIndex = 3;
+            BtnSubmission.Text = "我要投稿";
+            BtnSubmission.UseVisualStyleBackColor = true;
             // 
-            // btnInquire
+            // BtnInquire
             // 
-            btnInquire.Font = new Font("黑体", 13.8F);
-            btnInquire.Location = new Point(235, 206);
-            btnInquire.Name = "btnInquire";
-            btnInquire.Size = new Size(114, 43);
-            btnInquire.TabIndex = 4;
-            btnInquire.Text = "稿件查询";
-            btnInquire.UseVisualStyleBackColor = true;
+            BtnInquire.Font = new Font("黑体", 13.8F);
+            BtnInquire.Location = new Point(235, 206);
+            BtnInquire.Name = "BtnInquire";
+            BtnInquire.Size = new Size(114, 43);
+            BtnInquire.TabIndex = 4;
+            BtnInquire.Text = "稿件查询";
+            BtnInquire.UseVisualStyleBackColor = true;
             // 
-            // btnInformation
+            // BtnInformation
             // 
-            btnInformation.Font = new Font("黑体", 13.8F);
-            btnInformation.Location = new Point(235, 279);
-            btnInformation.Name = "btnInformation";
-            btnInformation.Size = new Size(114, 43);
-            btnInformation.TabIndex = 5;
-            btnInformation.Text = "个人资料";
-            btnInformation.UseVisualStyleBackColor = true;
+            BtnInformation.Font = new Font("黑体", 13.8F);
+            BtnInformation.Location = new Point(235, 279);
+            BtnInformation.Name = "BtnInformation";
+            BtnInformation.Size = new Size(114, 43);
+            BtnInformation.TabIndex = 5;
+            BtnInformation.Text = "个人资料";
+            BtnInformation.UseVisualStyleBackColor = true;
             // 
             // 作者主页面
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(610, 450);
-            Controls.Add(btnInformation);
-            Controls.Add(btnInquire);
-            Controls.Add(btnSubmission);
+            Controls.Add(BtnInformation);
+            Controls.Add(BtnInquire);
+            Controls.Add(BtnSubmission);
             Controls.Add(lblAuthor);
             Controls.Add(Close);
             FormBorderStyle = FormBorderStyle.None;
@@ -112,8 +112,8 @@
 
         private Button Close;
         private Label lblAuthor;
-        private Button btnSubmission;
-        private Button btnInquire;
-        private Button btnInformation;
+        private Button BtnSubmission;
+        private Button BtnInquire;
+        private Button BtnInformation;
     }
 }

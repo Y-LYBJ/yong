@@ -30,8 +30,8 @@
         {
             Close = new Button();
             lblEdit = new Label();
-            btnPending = new Button();
-            btnState = new Button();
+            BtnPending = new Button();
+            BtnState = new Button();
             SuspendLayout();
             // 
             // Close
@@ -59,33 +59,33 @@
             lblEdit.TabIndex = 2;
             lblEdit.Text = "你好，";
             // 
-            // btnPending
+            // BtnPending
             // 
-            btnPending.Font = new Font("黑体", 13.8F);
-            btnPending.Location = new Point(235, 130);
-            btnPending.Name = "btnPending";
-            btnPending.Size = new Size(153, 51);
-            btnPending.TabIndex = 3;
-            btnPending.Text = "待处理稿件";
-            btnPending.UseVisualStyleBackColor = true;
+            BtnPending.Font = new Font("黑体", 13.8F);
+            BtnPending.Location = new Point(235, 130);
+            BtnPending.Name = "BtnPending";
+            BtnPending.Size = new Size(153, 51);
+            BtnPending.TabIndex = 3;
+            BtnPending.Text = "待处理稿件";
+            BtnPending.UseVisualStyleBackColor = true;
             // 
-            // btnState
+            // BtnState
             // 
-            btnState.Font = new Font("黑体", 13.8F);
-            btnState.Location = new Point(235, 253);
-            btnState.Name = "btnState";
-            btnState.Size = new Size(153, 51);
-            btnState.TabIndex = 4;
-            btnState.Text = "稿件状态";
-            btnState.UseVisualStyleBackColor = true;
+            BtnState.Font = new Font("黑体", 13.8F);
+            BtnState.Location = new Point(235, 253);
+            BtnState.Name = "BtnState";
+            BtnState.Size = new Size(153, 51);
+            BtnState.TabIndex = 4;
+            BtnState.Text = "稿件状态";
+            BtnState.UseVisualStyleBackColor = true;
             // 
             // 编辑主页面
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(610, 450);
-            Controls.Add(btnState);
-            Controls.Add(btnPending);
+            Controls.Add(BtnState);
+            Controls.Add(BtnPending);
             Controls.Add(lblEdit);
             Controls.Add(Close);
             FormBorderStyle = FormBorderStyle.None;
@@ -101,7 +101,7 @@
 
         private Button Close;
         private Label lblEdit;
-        private Button btnPending;
-        private Button btnState;
+        private Button BtnPending;
+        private Button BtnState;
     }
 }
