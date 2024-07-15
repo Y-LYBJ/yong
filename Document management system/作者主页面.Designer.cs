@@ -30,7 +30,7 @@
         {
             Close = new Button();
             lblAuthor = new Label();
-            lblSubmission = new Button();
+            btnSubmission = new Button();
             btnInquire = new Button();
             btnInformation = new Button();
             SuspendLayout();
@@ -60,15 +60,15 @@
             lblAuthor.TabIndex = 2;
             lblAuthor.Text = "你好，";
             // 
-            // lblSubmission
+            // btnSubmission
             // 
-            lblSubmission.Font = new Font("黑体", 13.8F);
-            lblSubmission.Location = new Point(235, 132);
-            lblSubmission.Name = "lblSubmission";
-            lblSubmission.Size = new Size(114, 43);
-            lblSubmission.TabIndex = 3;
-            lblSubmission.Text = "我要投稿";
-            lblSubmission.UseVisualStyleBackColor = true;
+            btnSubmission.Font = new Font("黑体", 13.8F);
+            btnSubmission.Location = new Point(235, 132);
+            btnSubmission.Name = "btnSubmission";
+            btnSubmission.Size = new Size(114, 43);
+            btnSubmission.TabIndex = 3;
+            btnSubmission.Text = "我要投稿";
+            btnSubmission.UseVisualStyleBackColor = true;
             // 
             // btnInquire
             // 
@@ -97,7 +97,7 @@
             ClientSize = new Size(610, 450);
             Controls.Add(btnInformation);
             Controls.Add(btnInquire);
-            Controls.Add(lblSubmission);
+            Controls.Add(btnSubmission);
             Controls.Add(lblAuthor);
             Controls.Add(Close);
             FormBorderStyle = FormBorderStyle.None;
@@ -112,7 +112,7 @@
 
         private Button Close;
         private Label lblAuthor;
-        private Button lblSubmission;
+        private Button btnSubmission;
         private Button btnInquire;
         private Button btnInformation;
     }

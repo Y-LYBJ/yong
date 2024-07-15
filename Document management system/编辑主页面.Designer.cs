@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             Close = new Button();
+            lblEdit = new Label();
+            btnPending = new Button();
+            btnState = new Button();
             SuspendLayout();
             // 
             // Close
@@ -38,28 +41,67 @@
             Close.BackgroundImage = Properties.Resources.关闭按钮;
             Close.BackgroundImageLayout = ImageLayout.Stretch;
             Close.FlatStyle = FlatStyle.Popup;
-            Close.Location = new Point(12, 12);
+            Close.Location = new Point(560, 11);
+            Close.Margin = new Padding(2);
             Close.Name = "Close";
-            Close.Size = new Size(48, 43);
+            Close.Size = new Size(39, 36);
             Close.TabIndex = 1;
             Close.UseVisualStyleBackColor = false;
             Close.Click += Close_Click;
             // 
+            // lblEdit
+            // 
+            lblEdit.AutoSize = true;
+            lblEdit.Font = new Font("宋体", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            lblEdit.Location = new Point(12, 11);
+            lblEdit.Name = "lblEdit";
+            lblEdit.Size = new Size(79, 23);
+            lblEdit.TabIndex = 2;
+            lblEdit.Text = "你好，";
+            // 
+            // btnPending
+            // 
+            btnPending.Font = new Font("黑体", 13.8F);
+            btnPending.Location = new Point(235, 130);
+            btnPending.Name = "btnPending";
+            btnPending.Size = new Size(153, 51);
+            btnPending.TabIndex = 3;
+            btnPending.Text = "待处理稿件";
+            btnPending.UseVisualStyleBackColor = true;
+            // 
+            // btnState
+            // 
+            btnState.Font = new Font("黑体", 13.8F);
+            btnState.Location = new Point(235, 253);
+            btnState.Name = "btnState";
+            btnState.Size = new Size(153, 51);
+            btnState.TabIndex = 4;
+            btnState.Text = "稿件状态";
+            btnState.UseVisualStyleBackColor = true;
+            // 
             // 编辑主页面
             // 
-            AutoScaleDimensions = new SizeF(11F, 24F);
+            AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(610, 450);
+            Controls.Add(btnState);
+            Controls.Add(btnPending);
+            Controls.Add(lblEdit);
             Controls.Add(Close);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(2);
             Name = "编辑主页面";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "编辑主页面";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button Close;
+        private Label lblEdit;
+        private Button btnPending;
+        private Button btnState;
     }
 }
