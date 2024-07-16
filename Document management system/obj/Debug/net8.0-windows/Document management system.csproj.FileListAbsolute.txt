@@ -95,3 +95,4 @@ E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-w
 E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document management system.genruntimeconfig.cache
 E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\ref\Document management system.dll
 E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.作者个人资料.resources
+E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.作者修改资料.resources

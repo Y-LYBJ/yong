@@ -19,6 +19,9 @@
     <Compile Update="作者主页面.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="作者修改资料.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="教师主页面.cs">
       <SubType>Form</SubType>
     </Compile>
