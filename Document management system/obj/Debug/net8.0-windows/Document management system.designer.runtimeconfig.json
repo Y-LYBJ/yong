@@ -12,9 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\追梦赤子心\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\追梦赤子心\\.nuget\\packages",
-      "E:\\深度学习\\vs包\\NuGetPackages"
+      "C:\\Users\\野原新之助\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\野原新之助\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,

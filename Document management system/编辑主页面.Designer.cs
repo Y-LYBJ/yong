@@ -32,6 +32,7 @@
             lblEdit = new Label();
             BtnPending = new Button();
             BtnState = new Button();
+            User = new Label();
             SuspendLayout();
             // 
             // Close
@@ -41,10 +42,10 @@
             Close.BackgroundImage = Properties.Resources.关闭按钮;
             Close.BackgroundImageLayout = ImageLayout.Stretch;
             Close.FlatStyle = FlatStyle.Popup;
-            Close.Location = new Point(560, 11);
+            Close.Location = new Point(684, 13);
             Close.Margin = new Padding(2);
             Close.Name = "Close";
-            Close.Size = new Size(39, 36);
+            Close.Size = new Size(48, 43);
             Close.TabIndex = 1;
             Close.UseVisualStyleBackColor = false;
             Close.Click += Close_Click;
@@ -53,18 +54,20 @@
             // 
             lblEdit.AutoSize = true;
             lblEdit.Font = new Font("宋体", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            lblEdit.Location = new Point(12, 11);
+            lblEdit.Location = new Point(15, 13);
+            lblEdit.Margin = new Padding(4, 0, 4, 0);
             lblEdit.Name = "lblEdit";
-            lblEdit.Size = new Size(79, 23);
+            lblEdit.Size = new Size(96, 28);
             lblEdit.TabIndex = 2;
             lblEdit.Text = "你好，";
             // 
             // BtnPending
             // 
             BtnPending.Font = new Font("黑体", 13.8F);
-            BtnPending.Location = new Point(235, 130);
+            BtnPending.Location = new Point(287, 156);
+            BtnPending.Margin = new Padding(4, 4, 4, 4);
             BtnPending.Name = "BtnPending";
-            BtnPending.Size = new Size(153, 51);
+            BtnPending.Size = new Size(187, 61);
             BtnPending.TabIndex = 3;
             BtnPending.Text = "待处理稿件";
             BtnPending.UseVisualStyleBackColor = true;
@@ -72,18 +75,31 @@
             // BtnState
             // 
             BtnState.Font = new Font("黑体", 13.8F);
-            BtnState.Location = new Point(235, 253);
+            BtnState.Location = new Point(287, 304);
+            BtnState.Margin = new Padding(4, 4, 4, 4);
             BtnState.Name = "BtnState";
-            BtnState.Size = new Size(153, 51);
+            BtnState.Size = new Size(187, 61);
             BtnState.TabIndex = 4;
             BtnState.Text = "稿件状态";
             BtnState.UseVisualStyleBackColor = true;
             // 
+            // User
+            // 
+            User.AutoSize = true;
+            User.Font = new Font("宋体", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            User.Location = new Point(91, 13);
+            User.Margin = new Padding(4, 0, 4, 0);
+            User.Name = "User";
+            User.Size = new Size(68, 28);
+            User.TabIndex = 8;
+            User.Text = "用户";
+            // 
             // 编辑主页面
             // 
-            AutoScaleDimensions = new SizeF(9F, 20F);
+            AutoScaleDimensions = new SizeF(11F, 24F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(610, 450);
+            ClientSize = new Size(746, 540);
+            Controls.Add(User);
             Controls.Add(BtnState);
             Controls.Add(BtnPending);
             Controls.Add(lblEdit);
@@ -103,5 +119,6 @@
         private Label lblEdit;
         private Button BtnPending;
         private Button BtnState;
+        private Label User;
     }
 }
