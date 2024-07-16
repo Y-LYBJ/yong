@@ -29,5 +29,13 @@ namespace Document_management_system
             form3.ShowDialog();
             Application.ExitThread();
         }
+
+        private void BtnPassword_Click(object sender, EventArgs e)
+        {
+            作者更改密码 form4 = new 作者更改密码();
+            this.Hide();//隐藏当前窗体
+            form4.ShowDialog();
+            Application.ExitThread();
+        }
     }
 }

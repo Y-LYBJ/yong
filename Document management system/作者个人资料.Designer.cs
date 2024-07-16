@@ -152,6 +152,7 @@
             BtnPassword.TabIndex = 10;
             BtnPassword.Text = "更改密码";
             BtnPassword.UseVisualStyleBackColor = true;
+            BtnPassword.Click += BtnPassword_Click;
             // 
             // 作者个人资料
             // 
