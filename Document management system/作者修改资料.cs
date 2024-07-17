@@ -12,14 +12,38 @@ namespace Document_management_system
 {
     public partial class 作者修改资料 : Form
     {
+        public SQLpromgram s = new();
+        private
+            作者个人资料 w1 = new();
         public 作者修改资料()
         {
             InitializeComponent();
+            lblAccount.Text = ShowPage.Account;
+            lblName.Text = ShowPage.User;
+            lblLeval.Text = ShowPage.Level;
+            lblDescreption.Text = ShowPage.Descreption;
         }
 
         private void Close_Click(object sender, EventArgs e)
         {
+            w1.Show();
             this.Close();
+        }
+
+        private void BtnOk_Click(object sender, EventArgs e)
+        {
+            if (lblDescreption.Text.Length > 100)
+            {
+                MessageBox.Show("简介字数不能超过100！", "提醒");
+            }
+            else
+            {
+                s.SqlChangeDes(lblDescreption.Text);
+                w1.Show();
+                this.Close();
+
+            }
+
         }
     }
 }

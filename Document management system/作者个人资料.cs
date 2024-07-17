@@ -15,27 +15,33 @@ namespace Document_management_system
         public 作者个人资料()
         {
             InitializeComponent();
+            ShowPage sp = new ShowPage();
+            lblAccount.Text = ShowPage.Account;
+            lblName.Text = ShowPage.User;
+            lblLeval.Text = ShowPage.Level;
+            lblDescreption.Text = ShowPage.Descreption;
         }
 
         private void Close_Click(object sender, EventArgs e)
         {
+            作者主页面 form1 = new 作者主页面();
+            form1.Show();
             this.Close();
         }
 
         private void BtnInformation_Click(object sender, EventArgs e)
         {
             作者修改资料 form3 = new 作者修改资料();
-            this.Hide();//隐藏当前窗体
-            form3.ShowDialog();
-            Application.ExitThread();
+            form3.Show();
+            this.Close();//关闭当前窗体
         }
 
         private void BtnPassword_Click(object sender, EventArgs e)
         {
             作者更改密码 form4 = new 作者更改密码();
-            this.Hide();//隐藏当前窗体
-            form4.ShowDialog();
-            Application.ExitThread();
+            form4.Show();
+            this.Close();//关闭当前窗体
         }
+
     }
 }

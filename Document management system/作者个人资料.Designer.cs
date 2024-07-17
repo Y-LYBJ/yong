@@ -36,7 +36,7 @@
             lblName = new Label();
             lblAccount = new Label();
             lblLeval = new Label();
-            textBox1 = new TextBox();
+            lblDescreption = new TextBox();
             BtnInformation = new Button();
             BtnPassword = new Button();
             SuspendLayout();
@@ -45,9 +45,10 @@
             // 
             Close.BackgroundImage = Properties.Resources.关闭按钮;
             Close.BackgroundImageLayout = ImageLayout.Stretch;
-            Close.Location = new Point(641, 12);
+            Close.Location = new Point(783, 14);
+            Close.Margin = new Padding(4);
             Close.Name = "Close";
-            Close.Size = new Size(47, 48);
+            Close.Size = new Size(57, 58);
             Close.TabIndex = 0;
             Close.UseVisualStyleBackColor = true;
             Close.Click += Close_Click;
@@ -56,9 +57,10 @@
             // 
             lbl1.AutoSize = true;
             lbl1.Font = new Font("宋体", 13.8F);
-            lbl1.Location = new Point(143, 88);
+            lbl1.Location = new Point(175, 106);
+            lbl1.Margin = new Padding(4, 0, 4, 0);
             lbl1.Name = "lbl1";
-            lbl1.Size = new Size(125, 23);
+            lbl1.Size = new Size(152, 28);
             lbl1.TabIndex = 1;
             lbl1.Text = "组织名称：";
             // 
@@ -66,9 +68,10 @@
             // 
             lbl2.AutoSize = true;
             lbl2.Font = new Font("宋体", 13.8F);
-            lbl2.Location = new Point(189, 140);
+            lbl2.Location = new Point(231, 168);
+            lbl2.Margin = new Padding(4, 0, 4, 0);
             lbl2.Name = "lbl2";
-            lbl2.Size = new Size(79, 23);
+            lbl2.Size = new Size(96, 28);
             lbl2.TabIndex = 2;
             lbl2.Text = "账号：";
             // 
@@ -76,9 +79,10 @@
             // 
             lbl3.AutoSize = true;
             lbl3.Font = new Font("宋体", 13.8F);
-            lbl3.Location = new Point(143, 192);
+            lbl3.Location = new Point(175, 230);
+            lbl3.Margin = new Padding(4, 0, 4, 0);
             lbl3.Name = "lbl3";
-            lbl3.Size = new Size(125, 23);
+            lbl3.Size = new Size(152, 28);
             lbl3.TabIndex = 3;
             lbl3.Text = "所属级别：";
             // 
@@ -86,9 +90,10 @@
             // 
             lbl4.AutoSize = true;
             lbl4.Font = new Font("宋体", 13.8F);
-            lbl4.Location = new Point(143, 236);
+            lbl4.Location = new Point(175, 283);
+            lbl4.Margin = new Padding(4, 0, 4, 0);
             lbl4.Name = "lbl4";
-            lbl4.Size = new Size(125, 23);
+            lbl4.Size = new Size(152, 28);
             lbl4.TabIndex = 4;
             lbl4.Text = "组织简介：";
             // 
@@ -96,9 +101,10 @@
             // 
             lblName.AutoSize = true;
             lblName.Font = new Font("宋体", 12F);
-            lblName.Location = new Point(274, 91);
+            lblName.Location = new Point(335, 109);
+            lblName.Margin = new Padding(4, 0, 4, 0);
             lblName.Name = "lblName";
-            lblName.Size = new Size(49, 20);
+            lblName.Size = new Size(58, 24);
             lblName.TabIndex = 5;
             lblName.Text = "名称";
             // 
@@ -106,9 +112,10 @@
             // 
             lblAccount.AutoSize = true;
             lblAccount.Font = new Font("宋体", 12F);
-            lblAccount.Location = new Point(274, 143);
+            lblAccount.Location = new Point(335, 172);
+            lblAccount.Margin = new Padding(4, 0, 4, 0);
             lblAccount.Name = "lblAccount";
-            lblAccount.Size = new Size(49, 20);
+            lblAccount.Size = new Size(58, 24);
             lblAccount.TabIndex = 6;
             lblAccount.Text = "账号";
             // 
@@ -116,39 +123,43 @@
             // 
             lblLeval.AutoSize = true;
             lblLeval.Font = new Font("宋体", 12F);
-            lblLeval.Location = new Point(274, 195);
+            lblLeval.Location = new Point(335, 234);
+            lblLeval.Margin = new Padding(4, 0, 4, 0);
             lblLeval.Name = "lblLeval";
-            lblLeval.Size = new Size(49, 20);
+            lblLeval.Size = new Size(58, 24);
             lblLeval.TabIndex = 7;
             lblLeval.Text = "级别";
             // 
-            // textBox1
+            // lblDescreption
             // 
-            textBox1.Font = new Font("宋体", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            textBox1.Location = new Point(274, 237);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(321, 138);
-            textBox1.TabIndex = 8;
-            textBox1.Text = "（100字）";
+            lblDescreption.Font = new Font("宋体", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            lblDescreption.Location = new Point(335, 284);
+            lblDescreption.Margin = new Padding(4);
+            lblDescreption.Multiline = true;
+            lblDescreption.Name = "lblDescreption";
+            lblDescreption.Size = new Size(391, 165);
+            lblDescreption.TabIndex = 8;
+            lblDescreption.Text = "（100字）";
             // 
             // BtnInformation
             // 
             BtnInformation.Font = new Font("黑体", 13.8F);
-            BtnInformation.Location = new Point(146, 407);
+            BtnInformation.Location = new Point(178, 488);
+            BtnInformation.Margin = new Padding(4);
             BtnInformation.Name = "BtnInformation";
-            BtnInformation.Size = new Size(124, 35);
+            BtnInformation.Size = new Size(152, 42);
             BtnInformation.TabIndex = 9;
-            BtnInformation.Text = "修改资料";
+            BtnInformation.Text = "修改简介";
             BtnInformation.UseVisualStyleBackColor = true;
             BtnInformation.Click += BtnInformation_Click;
             // 
             // BtnPassword
             // 
             BtnPassword.Font = new Font("黑体", 13.8F);
-            BtnPassword.Location = new Point(408, 407);
+            BtnPassword.Location = new Point(499, 488);
+            BtnPassword.Margin = new Padding(4);
             BtnPassword.Name = "BtnPassword";
-            BtnPassword.Size = new Size(121, 35);
+            BtnPassword.Size = new Size(148, 42);
             BtnPassword.TabIndex = 10;
             BtnPassword.Text = "更改密码";
             BtnPassword.UseVisualStyleBackColor = true;
@@ -156,12 +167,12 @@
             // 
             // 作者个人资料
             // 
-            AutoScaleDimensions = new SizeF(9F, 20F);
+            AutoScaleDimensions = new SizeF(11F, 24F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(700, 500);
+            ClientSize = new Size(856, 600);
             Controls.Add(BtnPassword);
             Controls.Add(BtnInformation);
-            Controls.Add(textBox1);
+            Controls.Add(lblDescreption);
             Controls.Add(lblLeval);
             Controls.Add(lblAccount);
             Controls.Add(lblName);
@@ -171,7 +182,9 @@
             Controls.Add(lbl1);
             Controls.Add(Close);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(4);
             Name = "作者个人资料";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "作者个人资料";
             ResumeLayout(false);
             PerformLayout();
@@ -187,7 +200,7 @@
         private Label lblName;
         private Label lblAccount;
         private Label lblLeval;
-        private TextBox textBox1;
+        private TextBox lblDescreption;
         private Button BtnInformation;
         private Button BtnPassword;
     }

@@ -98,6 +98,7 @@ E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-w
 E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.作者修改资料.resources
 E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.作者更改密码.resources
 E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.作者投稿.resources
+<<<<<<< HEAD
 E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.主编待处理稿件.resources
 E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.主编拟定排期.resources
 E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.作者查询稿件.resources
@@ -110,3 +111,41 @@ E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-w
 E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.教师设置期数.resources
 E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.编辑待处理稿件.resources
 E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.编辑查看稿件状态.resources
+=======
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\bin\Debug\net8.0-windows\Document management system.exe
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\bin\Debug\net8.0-windows\Document management system.deps.json
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\bin\Debug\net8.0-windows\Document management system.runtimeconfig.json
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\bin\Debug\net8.0-windows\Document management system.dll
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\bin\Debug\net8.0-windows\Document management system.pdb
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document management system.csproj.AssemblyReference.cache
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.LoadChoice.resources
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.Properties.Resources.resources
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.StuLoad.resources
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.TeaLoad.resources
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.主编主页面.resources
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.作者个人资料.resources
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.作者主页面.resources
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.作者修改资料.resources
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.作者投稿.resources
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.作者更改密码.resources
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.教师主页面.resources
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.编辑主页面.resources
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document management system.csproj.GenerateResource.cache
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document management system.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document management system.AssemblyInfoInputs.cache
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document management system.AssemblyInfo.cs
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document management system.csproj.CoreCompileInputs.cache
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document management system.sourcelink.json
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document.1000B8D9.Up2Date
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document management system.dll
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\refint\Document management system.dll
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document management system.pdb
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document management system.genruntimeconfig.cache
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\ref\Document management system.dll
+>>>>>>> eef33677fb055aa79145d52593ff78dab48eb2cb
