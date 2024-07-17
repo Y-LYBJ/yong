@@ -20,7 +20,7 @@ namespace Document_management_system
 
         private void Close_Click(object sender, EventArgs e)
         {
-            Close();
+            Application.Exit();
         }
 
         private void BtnInformation_Click(object sender, EventArgs e)
@@ -38,9 +38,11 @@ namespace Document_management_system
             form5.ShowDialog();
         }
 
-        private void 作者主页面_Load(object sender, EventArgs e)
+        private void BtnInquire_Click(object sender, EventArgs e)
         {
-            User.Text = ShowPage.User;
+            作者查询稿件 form1 = new();
+            this.Close();
+            form1.ShowDialog();
         }
     }
 }

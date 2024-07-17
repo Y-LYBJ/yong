@@ -62,7 +62,7 @@ namespace Document_management_system
         {
             this.Close();
             教师设置 form1 = new();
-            form1.ShowDialog();
+            form1.Show();
         }
     }
 }

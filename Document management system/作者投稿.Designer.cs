@@ -108,7 +108,7 @@
             btnAdd.Location = new Point(308, 326);
             btnAdd.Margin = new Padding(4);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(202, 155);
+            btnAdd.Size = new Size(202, 185);
             btnAdd.TabIndex = 6;
             btnAdd.UseVisualStyleBackColor = true;
             // 

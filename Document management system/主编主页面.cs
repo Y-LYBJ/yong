@@ -19,7 +19,7 @@ namespace Document_management_system
 
         private void Close_Click(object sender, EventArgs e)
         {
-            Close();
+            Application.Exit();
         }
     }
 }
