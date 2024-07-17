@@ -25,17 +25,21 @@ namespace Document_management_system
         private void BtnInformation_Click(object sender, EventArgs e)
         {
             作者个人资料 form2 = new 作者个人资料();
-            this.Hide();//隐藏当前窗体
-            form2.ShowDialog();
-            Application.ExitThread(); //退出当前窗体，这一步很重要，否则最后可能无法将所有进程关闭。最好是在跳转页面后，将之前的页面退出。
+            this.Close();//关闭当前窗体
+            form2.Show();
 
         }
 
         private void BtnSubmission_Click(object sender, EventArgs e)
         {
             作者投稿 form5 = new 作者投稿();
-            this.Hide();//隐藏当前窗体
+            this.Close();//关闭当前窗体
             form5.ShowDialog();
+        }
+
+        private void 作者主页面_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

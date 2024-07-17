@@ -21,19 +21,8 @@ namespace Document_management_system
 
         private void Tea_load_Click(object sender, EventArgs e)
         {
-            if (!String.IsNullOrEmpty(Account.Text) && !String.IsNullOrEmpty(Password.Text))
-            {  //非空检验
-                SQLpromgram s = new();
-                if (s.SqlLoad(Account.Text, Password.Text,"教师"))
-                {
-                    MessageBox.Show("登录成功！", "提示");
-                    w1 = new 教师主页面();
-                    w1.Show();
-                    this.Hide();
-                }
-                else MessageBox.Show("账号或密码错误");
-            }
-            else MessageBox.Show("输入不能为空！"); 
+            StuLoad load = new StuLoad();
+            load.load_all("教师");
         }
 
 
