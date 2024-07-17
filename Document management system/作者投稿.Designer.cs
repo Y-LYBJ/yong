@@ -87,7 +87,7 @@
             // 
             txtName.Font = new Font("宋体", 13.8F);
             txtName.Location = new Point(353, 136);
-            txtName.Margin = new Padding(4, 4, 4, 4);
+            txtName.Margin = new Padding(4);
             txtName.Name = "txtName";
             txtName.Size = new Size(300, 39);
             txtName.TabIndex = 4;
@@ -96,7 +96,7 @@
             // 
             txtStyle.Font = new Font("宋体", 13.8F);
             txtStyle.Location = new Point(353, 221);
-            txtStyle.Margin = new Padding(4, 4, 4, 4);
+            txtStyle.Margin = new Padding(4);
             txtStyle.Name = "txtStyle";
             txtStyle.Size = new Size(152, 39);
             txtStyle.TabIndex = 5;
@@ -106,7 +106,7 @@
             btnAdd.BackgroundImage = Properties.Resources.加号;
             btnAdd.BackgroundImageLayout = ImageLayout.Stretch;
             btnAdd.Location = new Point(308, 326);
-            btnAdd.Margin = new Padding(4, 4, 4, 4);
+            btnAdd.Margin = new Padding(4);
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(202, 155);
             btnAdd.TabIndex = 6;
@@ -116,7 +116,7 @@
             // 
             btnSubmit.Font = new Font("黑体", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 134);
             btnSubmit.Location = new Point(552, 485);
-            btnSubmit.Margin = new Padding(4, 4, 4, 4);
+            btnSubmit.Margin = new Padding(4);
             btnSubmit.Name = "btnSubmit";
             btnSubmit.Size = new Size(115, 48);
             btnSubmit.TabIndex = 7;
@@ -128,7 +128,7 @@
             Close.BackgroundImage = Properties.Resources.关闭按钮;
             Close.BackgroundImageLayout = ImageLayout.Stretch;
             Close.Location = new Point(776, 14);
-            Close.Margin = new Padding(4, 4, 4, 4);
+            Close.Margin = new Padding(4);
             Close.Name = "Close";
             Close.Size = new Size(65, 61);
             Close.TabIndex = 8;
@@ -150,7 +150,7 @@
             Controls.Add(lblName);
             Controls.Add(lbl1);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "作者投稿";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "作者投稿";

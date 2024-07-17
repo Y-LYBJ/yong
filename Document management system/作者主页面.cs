@@ -15,6 +15,7 @@ namespace Document_management_system
         public 作者主页面()
         {
             InitializeComponent();
+            User.Text = ShowPage.User;
         }
 
         private void Close_Click(object sender, EventArgs e)
@@ -39,7 +40,7 @@ namespace Document_management_system
 
         private void 作者主页面_Load(object sender, EventArgs e)
         {
-
+            User.Text = ShowPage.User;
         }
     }
 }

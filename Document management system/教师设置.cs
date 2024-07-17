@@ -37,5 +37,12 @@ namespace Document_management_system
             this.Hide();//隐藏当前窗体
             form2.ShowDialog();
         }
+
+        private void Close_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            教师主页面 form1 = new();
+            form1.ShowDialog();
+        }
     }
 }

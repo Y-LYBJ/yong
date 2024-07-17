@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\程序设计大赛\\版本2\\yong\\Document management system\\Document management system.csproj": {}
+    "C:\\Users\\野原新之助\\Desktop\\Project\\yong\\Document management system\\Document management system.csproj": {}
   },
   "projects": {
-    "E:\\程序设计大赛\\版本2\\yong\\Document management system\\Document management system.csproj": {
+    "C:\\Users\\野原新之助\\Desktop\\Project\\yong\\Document management system\\Document management system.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\程序设计大赛\\版本2\\yong\\Document management system\\Document management system.csproj",
+        "projectUniqueName": "C:\\Users\\野原新之助\\Desktop\\Project\\yong\\Document management system\\Document management system.csproj",
         "projectName": "Document management system",
-        "projectPath": "E:\\程序设计大赛\\版本2\\yong\\Document management system\\Document management system.csproj",
-        "packagesPath": "C:\\Users\\追梦赤子心\\.nuget\\packages\\",
-        "outputPath": "E:\\程序设计大赛\\版本2\\yong\\Document management system\\obj\\",
+        "projectPath": "C:\\Users\\野原新之助\\Desktop\\Project\\yong\\Document management system\\Document management system.csproj",
+        "packagesPath": "C:\\Users\\野原新之助\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\野原新之助\\Desktop\\Project\\yong\\Document management system\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "E:\\深度学习\\vs包\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\追梦赤子心\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\野原新之助\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -73,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

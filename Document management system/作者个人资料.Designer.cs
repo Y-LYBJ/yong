@@ -137,6 +137,7 @@
             lblDescreption.Margin = new Padding(4);
             lblDescreption.Multiline = true;
             lblDescreption.Name = "lblDescreption";
+            lblDescreption.ReadOnly = true;
             lblDescreption.Size = new Size(391, 165);
             lblDescreption.TabIndex = 8;
             lblDescreption.Text = "（100字）";

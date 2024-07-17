@@ -108,6 +108,30 @@ namespace Document_management_system
             }
             catch { MessageBox.Show("请输入正确的密码类型！"); }
         }
+
+        public void SqlEnroll(string Acccount,string Name,string Identity)
+        {
+                SqlConnection conn = new SqlConnection();
+                conn.ConnectionString = "Data Source=192.168.1.6,1433;Initial Catalog=\"management system\";Integrated Security=True;User ID = sa;pwd = 123456";
+                conn.Open();
+                string sql1 = "INSERT INTO Load (account,id,organization) VALUES ('";
+                string sql2 = Acccount + "','" + Identity + "','" + Name + "')";
+                string sql = sql1 + sql2;
+                SqlCommand cmd = new SqlCommand(sql);
+                cmd.Connection = conn;
+                int i = cmd.ExecuteNonQuery();
+                conn.Close();
+                if (i > 0)
+                {
+                    MessageBox.Show("注册成功！", "提示");
+                }
+                else
+                {
+                    MessageBox.Show("注册失败！", "提示");
+                }
+        }
+
+
     }
 
 

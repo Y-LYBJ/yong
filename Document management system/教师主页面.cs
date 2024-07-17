@@ -26,7 +26,7 @@ namespace Document_management_system
 
         private void BtnSet_Click(object sender, EventArgs e)
         {
-             教师设置 form4 = new 教师设置();
+            教师设置 form4 = new 教师设置();
             this.Hide();//隐藏当前窗体
             form4.ShowDialog();
         }

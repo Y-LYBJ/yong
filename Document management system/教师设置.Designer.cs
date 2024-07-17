@@ -31,14 +31,15 @@
             BtnRegistered = new Button();
             BtnManage = new Button();
             BtnScheduling = new Button();
-            button1 = new Button();
+            Close = new Button();
             SuspendLayout();
             // 
             // BtnRegistered
             // 
-            BtnRegistered.Location = new Point(292, 85);
+            BtnRegistered.Location = new Point(132, 78);
+            BtnRegistered.Margin = new Padding(4, 4, 4, 4);
             BtnRegistered.Name = "BtnRegistered";
-            BtnRegistered.Size = new Size(137, 61);
+            BtnRegistered.Size = new Size(167, 73);
             BtnRegistered.TabIndex = 0;
             BtnRegistered.Text = "注册账号";
             BtnRegistered.UseVisualStyleBackColor = true;
@@ -46,9 +47,10 @@
             // 
             // BtnManage
             // 
-            BtnManage.Location = new Point(292, 171);
+            BtnManage.Location = new Point(132, 188);
+            BtnManage.Margin = new Padding(4, 4, 4, 4);
             BtnManage.Name = "BtnManage";
-            BtnManage.Size = new Size(137, 61);
+            BtnManage.Size = new Size(167, 73);
             BtnManage.TabIndex = 1;
             BtnManage.Text = "管理账号";
             BtnManage.UseVisualStyleBackColor = true;
@@ -56,33 +58,37 @@
             // 
             // BtnScheduling
             // 
-            BtnScheduling.Location = new Point(292, 256);
+            BtnScheduling.Location = new Point(132, 301);
+            BtnScheduling.Margin = new Padding(4, 4, 4, 4);
             BtnScheduling.Name = "BtnScheduling";
-            BtnScheduling.Size = new Size(137, 61);
+            BtnScheduling.Size = new Size(167, 73);
             BtnScheduling.TabIndex = 2;
             BtnScheduling.Text = "设置期数";
             BtnScheduling.UseVisualStyleBackColor = true;
             BtnScheduling.Click += BtnScheduling_Click;
             // 
-            // button1
+            // Close
             // 
-            button1.Location = new Point(659, 25);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 3;
-            button1.Text = "关闭";
-            button1.UseVisualStyleBackColor = true;
+            Close.Location = new Point(409, 31);
+            Close.Margin = new Padding(4, 4, 4, 4);
+            Close.Name = "Close";
+            Close.Size = new Size(115, 35);
+            Close.TabIndex = 3;
+            Close.Text = "关闭";
+            Close.UseVisualStyleBackColor = true;
+            Close.Click += Close_Click;
             // 
             // 教师设置
             // 
-            AutoScaleDimensions = new SizeF(9F, 20F);
+            AutoScaleDimensions = new SizeF(11F, 24F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button1);
+            ClientSize = new Size(556, 462);
+            Controls.Add(Close);
             Controls.Add(BtnScheduling);
             Controls.Add(BtnManage);
             Controls.Add(BtnRegistered);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(4, 4, 4, 4);
             Name = "教师设置";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "教师设置";
@@ -94,6 +100,6 @@
         private Button BtnRegistered;
         private Button BtnManage;
         private Button BtnScheduling;
-        private Button button1;
+        private Button Close;
     }
 }
