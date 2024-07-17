@@ -70,6 +70,7 @@
             BtnSubmission.TabIndex = 3;
             BtnSubmission.Text = "我要投稿";
             BtnSubmission.UseVisualStyleBackColor = true;
+            BtnSubmission.Click += BtnSubmission_Click;
             // 
             // BtnInquire
             // 

@@ -22,6 +22,9 @@
     <Compile Update="作者修改资料.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="作者投稿.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="作者更改密码.cs">
       <SubType>Form</SubType>
     </Compile>

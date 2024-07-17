@@ -30,5 +30,12 @@ namespace Document_management_system
             Application.ExitThread(); //退出当前窗体，这一步很重要，否则最后可能无法将所有进程关闭。最好是在跳转页面后，将之前的页面退出。
 
         }
+
+        private void BtnSubmission_Click(object sender, EventArgs e)
+        {
+            作者投稿 form5 = new 作者投稿();
+            this.Hide();//隐藏当前窗体
+            form5.ShowDialog();
+        }
     }
 }
