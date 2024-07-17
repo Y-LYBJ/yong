@@ -13,6 +13,12 @@
     <Compile Update="主编主页面.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="主编待处理稿件.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="主编拟定排期.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="作者个人资料.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -28,10 +34,40 @@
     <Compile Update="作者更改密码.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="作者查询稿件.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="教师主页面.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="教师决定排期.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="教师查看已录用稿件.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="教师注册账号.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="教师管理稿件.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="教师管理账号.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="教师设置.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="教师设置期数.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="编辑主页面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="编辑待处理稿件.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="编辑查看稿件状态.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

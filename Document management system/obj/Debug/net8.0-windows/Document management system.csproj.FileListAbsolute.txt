@@ -98,3 +98,15 @@ E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-w
 E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.作者修改资料.resources
 E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.作者更改密码.resources
 E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.作者投稿.resources
+E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.主编待处理稿件.resources
+E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.主编拟定排期.resources
+E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.作者查询稿件.resources
+E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.教师决定排期.resources
+E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.教师查看已录用稿件.resources
+E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.教师注册账号.resources
+E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.教师管理稿件.resources
+E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.教师管理账号.resources
+E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.教师设置.resources
+E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.教师设置期数.resources
+E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.编辑待处理稿件.resources
+E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.编辑查看稿件状态.resources

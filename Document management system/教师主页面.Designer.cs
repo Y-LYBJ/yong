@@ -46,10 +46,10 @@
             Close.BackgroundImage = Properties.Resources.关闭按钮;
             Close.BackgroundImageLayout = ImageLayout.Stretch;
             Close.FlatStyle = FlatStyle.Popup;
-            Close.Location = new Point(684, 13);
+            Close.Location = new Point(560, 11);
             Close.Margin = new Padding(2);
             Close.Name = "Close";
-            Close.Size = new Size(48, 43);
+            Close.Size = new Size(39, 36);
             Close.TabIndex = 1;
             Close.UseVisualStyleBackColor = false;
             Close.Click += Close_Click;
@@ -58,58 +58,56 @@
             // 
             lblTeacher.AutoSize = true;
             lblTeacher.Font = new Font("宋体", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            lblTeacher.Location = new Point(15, 13);
-            lblTeacher.Margin = new Padding(4, 0, 4, 0);
+            lblTeacher.Location = new Point(12, 11);
             lblTeacher.Name = "lblTeacher";
-            lblTeacher.Size = new Size(96, 28);
+            lblTeacher.Size = new Size(79, 23);
             lblTeacher.TabIndex = 2;
             lblTeacher.Text = "你好，";
             // 
             // BtnInput
             // 
             BtnInput.Font = new Font("黑体", 13.8F);
-            BtnInput.Location = new Point(251, 131);
-            BtnInput.Margin = new Padding(4, 4, 4, 4);
+            BtnInput.Location = new Point(205, 109);
             BtnInput.Name = "BtnInput";
-            BtnInput.Size = new Size(232, 61);
+            BtnInput.Size = new Size(190, 51);
             BtnInput.TabIndex = 3;
             BtnInput.Text = "查看已录用稿件";
             BtnInput.UseVisualStyleBackColor = true;
+            BtnInput.Click += BtnInput_Click;
             // 
             // BtnScheduling
             // 
             BtnScheduling.Font = new Font("黑体", 13.8F);
-            BtnScheduling.Location = new Point(251, 223);
-            BtnScheduling.Margin = new Padding(4, 4, 4, 4);
+            BtnScheduling.Location = new Point(205, 186);
             BtnScheduling.Name = "BtnScheduling";
-            BtnScheduling.Size = new Size(232, 61);
+            BtnScheduling.Size = new Size(190, 51);
             BtnScheduling.TabIndex = 4;
             BtnScheduling.Text = "决定排期";
             BtnScheduling.UseVisualStyleBackColor = true;
+            BtnScheduling.Click += BtnScheduling_Click;
             // 
             // BtnManageManuscript
             // 
             BtnManageManuscript.Font = new Font("黑体", 13.8F);
-            BtnManageManuscript.Location = new Point(251, 319);
-            BtnManageManuscript.Margin = new Padding(4, 4, 4, 4);
+            BtnManageManuscript.Location = new Point(205, 266);
             BtnManageManuscript.Name = "BtnManageManuscript";
-            BtnManageManuscript.Size = new Size(232, 61);
+            BtnManageManuscript.Size = new Size(190, 51);
             BtnManageManuscript.TabIndex = 5;
             BtnManageManuscript.Text = "管理稿件";
             BtnManageManuscript.UseVisualStyleBackColor = true;
+            BtnManageManuscript.Click += BtnManageManuscript_Click;
             // 
             // BtnSet
             // 
             BtnSet.BackgroundImage = Properties.Resources.设置按钮;
             BtnSet.BackgroundImageLayout = ImageLayout.Stretch;
             BtnSet.FlatStyle = FlatStyle.Popup;
-            BtnSet.Location = new Point(622, 440);
-            BtnSet.Margin = new Padding(4, 4, 4, 4);
+            BtnSet.Location = new Point(509, 367);
             BtnSet.Name = "BtnSet";
-            BtnSet.Size = new Size(82, 70);
+            BtnSet.Size = new Size(67, 58);
             BtnSet.TabIndex = 6;
             BtnSet.UseVisualStyleBackColor = true;
-            BtnSet.Click += btnSet_Click;
+            BtnSet.Click += BtnSet_Click;
             // 
             // tipSet
             // 
@@ -119,18 +117,17 @@
             // 
             User.AutoSize = true;
             User.Font = new Font("宋体", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            User.Location = new Point(92, 13);
-            User.Margin = new Padding(4, 0, 4, 0);
+            User.Location = new Point(75, 11);
             User.Name = "User";
-            User.Size = new Size(68, 28);
+            User.Size = new Size(56, 23);
             User.TabIndex = 7;
             User.Text = "用户";
             // 
             // 教师主页面
             // 
-            AutoScaleDimensions = new SizeF(11F, 24F);
+            AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(746, 540);
+            ClientSize = new Size(610, 450);
             Controls.Add(User);
             Controls.Add(BtnSet);
             Controls.Add(BtnManageManuscript);
