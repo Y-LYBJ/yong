@@ -17,9 +17,11 @@ namespace Document_management_system
             作者主页面 w1;
         编辑主页面 w2;
         主编主页面 w3;
+        private Boolean fals = true; // 定义一个布尔变量用于控制图片和密码显示状态
         public StuLoad()
         {
             InitializeComponent();
+            IconShow.BackgroundImage = Document_management_system.Properties.Resources.睁眼; // 默认显示隐藏密码的图标
         }
 
         public void load_all(string id)
@@ -56,7 +58,28 @@ namespace Document_management_system
         {
             load_all("教师");
         }
+        private void IconShow_Click(object sender, EventArgs e)
+        {
+            if (fals == true)
+            {
+                // 切换密码显示状态
+                Password.PasswordChar = '\0'; // 显示密码
 
+                // 切换图标
+                IconShow.BackgroundImage = Document_management_system.Properties.Resources.睁眼; // 显示显示密码的图标
 
+                fals = false;
+            }
+            else
+            {
+                // 切换密码显示状态
+                Password.PasswordChar = '*'; // 隐藏密码
+
+                // 切换图标
+                IconShow.BackgroundImage = Document_management_system.Properties.Resources.闭眼; // 显示隐藏密码的图标
+
+                fals = true;
+            }
+        }
     }
 }
