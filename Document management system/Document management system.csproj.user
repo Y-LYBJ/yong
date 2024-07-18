@@ -13,6 +13,9 @@
     <Compile Update="主编主页面.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="主编审查稿件.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="主编待处理稿件.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -32,6 +35,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="作者更改密码.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="作者查看修改意见.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="作者查询稿件.cs">
@@ -62,6 +68,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="编辑主页面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="编辑决定稿件去留.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="编辑待处理稿件.cs">
