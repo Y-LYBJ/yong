@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|e:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\document management system\\teaload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\teaload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|e:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\document management system\\stuload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\stuload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|e:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\document management system\\teaload.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\teaload.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|e:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\document management system\\stuload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\document management system\\stuload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\stuload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\document management system\\\u6559\u5E08\u8BBE\u7F6E.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u6559\u5E08\u8BBE\u7F6E.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\document management system\\\u6559\u5E08\u4E3B\u9875\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u6559\u5E08\u4E3B\u9875\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|e:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\document management system\\teaload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\teaload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\document management system\\\u4E3B\u7F16\u4E3B\u9875\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u4E3B\u7F16\u4E3B\u9875\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|e:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\document management system\\stuload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\stuload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|e:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\document management system\\teaload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\teaload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\document management system\\\u6559\u5E08\u4E3B\u9875\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u6559\u5E08\u4E3B\u9875\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|e:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\document management system\\teaload.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\teaload.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\document management system\\\u6559\u5E08\u8BBE\u7F6E.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u6559\u5E08\u8BBE\u7F6E.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|e:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\document management system\\stuload.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -174,7 +178,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -182,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "StuLoad.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\StuLoad.cs",
               "RelativeDocumentMoniker": "Document management system\\StuLoad.cs",
@@ -195,31 +199,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "\u6559\u5E08\u4E3B\u9875\u9762.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u6559\u5E08\u4E3B\u9875\u9762.cs",
               "RelativeDocumentMoniker": "Document management system\\\u6559\u5E08\u4E3B\u9875\u9762.cs",
               "ToolTip": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u6559\u5E08\u4E3B\u9875\u9762.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "Document management system\\\u6559\u5E08\u4E3B\u9875\u9762.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-15T06:35:21.133Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [\u8BBE\u8BA1]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "\u4E3B\u7F16\u4E3B\u9875\u9762.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u4E3B\u7F16\u4E3B\u9875\u9762.cs",
               "RelativeDocumentMoniker": "Document management system\\\u4E3B\u7F16\u4E3B\u9875\u9762.cs",
               "ToolTip": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u4E3B\u7F16\u4E3B\u9875\u9762.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "Document management system\\\u4E3B\u7F16\u4E3B\u9875\u9762.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-15T06:35:22.234Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [\u8BBE\u8BA1]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "TeaLoad.cs",
+              "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\TeaLoad.cs",
+              "RelativeDocumentMoniker": "Document management system\\TeaLoad.cs",
+              "ToolTip": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\TeaLoad.cs",
+              "RelativeToolTip": "Document management system\\TeaLoad.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T07:14:01.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TeaLoad.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\TeaLoad.cs",
               "RelativeDocumentMoniker": "Document management system\\TeaLoad.cs",
@@ -231,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "TeaLoad.Designer.cs",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\TeaLoad.Designer.cs",
               "RelativeDocumentMoniker": "Document management system\\TeaLoad.Designer.cs",
@@ -244,20 +263,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "StuLoad.cs",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\StuLoad.cs",
               "RelativeDocumentMoniker": "Document management system\\StuLoad.cs",
               "ToolTip": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\StuLoad.cs",
               "RelativeToolTip": "Document management system\\StuLoad.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAwwE8AAAAXAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAIAwwBcAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-18T05:35:37.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.Designer.cs",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.Designer.cs",
               "RelativeDocumentMoniker": "Document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.Designer.cs",
@@ -269,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.cs",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.cs",
               "RelativeDocumentMoniker": "Document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.cs",
@@ -282,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.cs",
               "RelativeDocumentMoniker": "Document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.cs",
@@ -293,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "\u6559\u5E08\u8BBE\u7F6E.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u6559\u5E08\u8BBE\u7F6E.cs",
               "RelativeDocumentMoniker": "Document management system\\\u6559\u5E08\u8BBE\u7F6E.cs",
@@ -304,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "StuLoad.Designer.cs",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\StuLoad.Designer.cs",
               "RelativeDocumentMoniker": "Document management system\\StuLoad.Designer.cs",
@@ -317,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "\u7F16\u8F91\u51B3\u5B9A\u7A3F\u4EF6\u53BB\u7559.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u7F16\u8F91\u51B3\u5B9A\u7A3F\u4EF6\u53BB\u7559.cs",
               "RelativeDocumentMoniker": "Document management system\\\u7F16\u8F91\u51B3\u5B9A\u7A3F\u4EF6\u53BB\u7559.cs",
@@ -328,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "\u4F5C\u8005\u67E5\u770B\u4FEE\u6539\u610F\u89C1.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u4F5C\u8005\u67E5\u770B\u4FEE\u6539\u610F\u89C1.cs",
               "RelativeDocumentMoniker": "Document management system\\\u4F5C\u8005\u67E5\u770B\u4FEE\u6539\u610F\u89C1.cs",
@@ -339,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "\u6559\u5E08\u8BBE\u7F6E\u671F\u6570.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u6559\u5E08\u8BBE\u7F6E\u671F\u6570.cs",
               "RelativeDocumentMoniker": "Document management system\\\u6559\u5E08\u8BBE\u7F6E\u671F\u6570.cs",
@@ -350,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "\u6559\u5E08\u7BA1\u7406\u8D26\u53F7.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u6559\u5E08\u7BA1\u7406\u8D26\u53F7.cs",
               "RelativeDocumentMoniker": "Document management system\\\u6559\u5E08\u7BA1\u7406\u8D26\u53F7.cs",
@@ -361,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "\u6559\u5E08\u6CE8\u518C\u8D26\u53F7.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u6559\u5E08\u6CE8\u518C\u8D26\u53F7.cs",
               "RelativeDocumentMoniker": "Document management system\\\u6559\u5E08\u6CE8\u518C\u8D26\u53F7.cs",
@@ -372,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "\u4F5C\u8005\u67E5\u8BE2\u7A3F\u4EF6.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u4F5C\u8005\u67E5\u8BE2\u7A3F\u4EF6.cs",
               "RelativeDocumentMoniker": "Document management system\\\u4F5C\u8005\u67E5\u8BE2\u7A3F\u4EF6.cs",
@@ -383,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "\u6559\u5E08\u4E3B\u9875\u9762.Designer.cs",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u6559\u5E08\u4E3B\u9875\u9762.Designer.cs",
               "RelativeDocumentMoniker": "Document management system\\\u6559\u5E08\u4E3B\u9875\u9762.Designer.cs",
@@ -391,11 +410,12 @@
               "RelativeToolTip": "Document management system\\\u6559\u5E08\u4E3B\u9875\u9762.Designer.cs",
               "ViewState": "AQIAAHIAAAAAAAAAAAA0wJgAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T08:55:27.548Z"
+              "WhenOpened": "2024-07-17T08:55:27.548Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "\u6559\u5E08\u4E3B\u9875\u9762.cs",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u6559\u5E08\u4E3B\u9875\u9762.cs",
               "RelativeDocumentMoniker": "Document management system\\\u6559\u5E08\u4E3B\u9875\u9762.cs",
@@ -407,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Document management system.csproj",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\Document management system.csproj",
               "RelativeDocumentMoniker": "Document management system\\Document management system.csproj",
@@ -419,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "\u6559\u5E08\u8BBE\u7F6E.cs",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u6559\u5E08\u8BBE\u7F6E.cs",
               "RelativeDocumentMoniker": "Document management system\\\u6559\u5E08\u8BBE\u7F6E.cs",
@@ -431,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "\u4F5C\u8005\u4E3B\u9875\u9762.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u4F5C\u8005\u4E3B\u9875\u9762.cs",
               "RelativeDocumentMoniker": "Document management system\\\u4F5C\u8005\u4E3B\u9875\u9762.cs",
@@ -442,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "\u4F5C\u8005\u4E3B\u9875\u9762.cs",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u4F5C\u8005\u4E3B\u9875\u9762.cs",
               "RelativeDocumentMoniker": "Document management system\\\u4F5C\u8005\u4E3B\u9875\u9762.cs",
@@ -454,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "\u6559\u5E08\u7BA1\u7406\u7A3F\u4EF6.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u6559\u5E08\u7BA1\u7406\u7A3F\u4EF6.cs",
               "RelativeDocumentMoniker": "Document management system\\\u6559\u5E08\u7BA1\u7406\u7A3F\u4EF6.cs",
@@ -465,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "\u6559\u5E08\u51B3\u5B9A\u6392\u671F.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u6559\u5E08\u51B3\u5B9A\u6392\u671F.cs",
               "RelativeDocumentMoniker": "Document management system\\\u6559\u5E08\u51B3\u5B9A\u6392\u671F.cs",
@@ -476,7 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "\u6559\u5E08\u67E5\u770B\u5DF2\u5F55\u7528\u7A3F\u4EF6.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u6559\u5E08\u67E5\u770B\u5DF2\u5F55\u7528\u7A3F\u4EF6.cs",
               "RelativeDocumentMoniker": "Document management system\\\u6559\u5E08\u67E5\u770B\u5DF2\u5F55\u7528\u7A3F\u4EF6.cs",
@@ -487,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "\u4E3B\u7F16\u62DF\u5B9A\u6392\u671F.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u4E3B\u7F16\u62DF\u5B9A\u6392\u671F.cs",
               "RelativeDocumentMoniker": "Document management system\\\u4E3B\u7F16\u62DF\u5B9A\u6392\u671F.cs",
@@ -498,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "\u4E3B\u7F16\u5F85\u5904\u7406\u7A3F\u4EF6.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u4E3B\u7F16\u5F85\u5904\u7406\u7A3F\u4EF6.cs",
               "RelativeDocumentMoniker": "Document management system\\\u4E3B\u7F16\u5F85\u5904\u7406\u7A3F\u4EF6.cs",
@@ -509,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "\u7F16\u8F91\u67E5\u770B\u7A3F\u4EF6\u72B6\u6001.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u7F16\u8F91\u67E5\u770B\u7A3F\u4EF6\u72B6\u6001.cs",
               "RelativeDocumentMoniker": "Document management system\\\u7F16\u8F91\u67E5\u770B\u7A3F\u4EF6\u72B6\u6001.cs",
@@ -520,7 +540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "\u7F16\u8F91\u5F85\u5904\u7406\u7A3F\u4EF6.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u7F16\u8F91\u5F85\u5904\u7406\u7A3F\u4EF6.cs",
               "RelativeDocumentMoniker": "Document management system\\\u7F16\u8F91\u5F85\u5904\u7406\u7A3F\u4EF6.cs",
@@ -531,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "\u4F5C\u8005\u6295\u7A3F.cs",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u4F5C\u8005\u6295\u7A3F.cs",
               "RelativeDocumentMoniker": "Document management system\\\u4F5C\u8005\u6295\u7A3F.cs",
@@ -544,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "\u4F5C\u8005\u66F4\u6539\u5BC6\u7801.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u4F5C\u8005\u66F4\u6539\u5BC6\u7801.cs",
               "RelativeDocumentMoniker": "Document management system\\\u4F5C\u8005\u66F4\u6539\u5BC6\u7801.cs",
@@ -555,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "\u4F5C\u8005\u4FEE\u6539\u8D44\u6599.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u4F5C\u8005\u4FEE\u6539\u8D44\u6599.cs",
               "RelativeDocumentMoniker": "Document management system\\\u4F5C\u8005\u4FEE\u6539\u8D44\u6599.cs",
@@ -566,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "\u4F5C\u8005\u6295\u7A3F.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u4F5C\u8005\u6295\u7A3F.cs",
               "RelativeDocumentMoniker": "Document management system\\\u4F5C\u8005\u6295\u7A3F.cs",
@@ -577,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "\u4F5C\u8005\u66F4\u6539\u5BC6\u7801.cs",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u4F5C\u8005\u66F4\u6539\u5BC6\u7801.cs",
               "RelativeDocumentMoniker": "Document management system\\\u4F5C\u8005\u66F4\u6539\u5BC6\u7801.cs",
@@ -589,7 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "\u4F5C\u8005\u4E2A\u4EBA\u8D44\u6599.cs",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u4F5C\u8005\u4E2A\u4EBA\u8D44\u6599.cs",
               "RelativeDocumentMoniker": "Document management system\\\u4F5C\u8005\u4E2A\u4EBA\u8D44\u6599.cs",
@@ -602,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "\u4F5C\u8005\u4FEE\u6539\u8D44\u6599.cs",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u4F5C\u8005\u4FEE\u6539\u8D44\u6599.cs",
               "RelativeDocumentMoniker": "Document management system\\\u4F5C\u8005\u4FEE\u6539\u8D44\u6599.cs",
@@ -614,7 +634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "\u4F5C\u8005\u4E2A\u4EBA\u8D44\u6599.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u4F5C\u8005\u4E2A\u4EBA\u8D44\u6599.cs",
               "RelativeDocumentMoniker": "Document management system\\\u4F5C\u8005\u4E2A\u4EBA\u8D44\u6599.cs",
@@ -625,7 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "\u7F16\u8F91\u4E3B\u9875\u9762.cs",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u7F16\u8F91\u4E3B\u9875\u9762.cs",
               "RelativeDocumentMoniker": "Document management system\\\u7F16\u8F91\u4E3B\u9875\u9762.cs",
@@ -638,7 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "\u4E3B\u7F16\u4E3B\u9875\u9762.cs",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u4E3B\u7F16\u4E3B\u9875\u9762.cs",
               "RelativeDocumentMoniker": "Document management system\\\u4E3B\u7F16\u4E3B\u9875\u9762.cs",
@@ -650,7 +670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "\u7F16\u8F91\u4E3B\u9875\u9762.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "E:\\\u7A0B\u5E8F\u8BBE\u8BA1\u5927\u8D5B\\\u7248\u672C2\\yong\\Document management system\\\u7F16\u8F91\u4E3B\u9875\u9762.cs",
               "RelativeDocumentMoniker": "Document management system\\\u7F16\u8F91\u4E3B\u9875\u9762.cs",

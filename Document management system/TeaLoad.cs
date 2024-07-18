@@ -14,9 +14,11 @@ namespace Document_management_system
     public partial class TeaLoad : Form
     {
         private static 教师主页面 w1;
+        private Boolean fals = true;
         public TeaLoad()
         {
             InitializeComponent();
+            IconShow.BackgroundImage = Document_management_system.Properties.Resources.睁眼;
         }
 
         private void Tea_load_Click(object sender, EventArgs e)
@@ -39,10 +41,28 @@ namespace Document_management_system
             else MessageBox.Show("输入不能为空！");
         }
 
+        private void IconShow_Click(object sender, EventArgs e)
+        {
+            if (fals == true)
+            {
+                // 切换密码显示状态
+                Password.PasswordChar = '\0'; // 显示密码
 
+                // 切换图标
+                IconShow.BackgroundImage = Document_management_system.Properties.Resources.睁眼; // 显示显示密码的图标
 
+                fals = false;
+            }
+            else
+            {
+                // 切换密码显示状态
+                Password.PasswordChar = '*'; // 隐藏密码
 
+                // 切换图标
+                IconShow.BackgroundImage = Document_management_system.Properties.Resources.闭眼; // 显示隐藏密码的图标
+
+                fals = true;
+            }
+        }
     }
-
-
 }

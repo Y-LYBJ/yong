@@ -118,9 +118,9 @@
             // 
             IconShow.BackgroundImage = Properties.Resources.闭眼;
             IconShow.BackgroundImageLayout = ImageLayout.Stretch;
-            IconShow.Location = new Point(424, 114);
+            IconShow.Location = new Point(424, 115);
             IconShow.Name = "IconShow";
-            IconShow.Size = new Size(40, 31);
+            IconShow.Size = new Size(40, 26);
             IconShow.TabIndex = 8;
             IconShow.TabStop = false;
             IconShow.Click += IconShow_Click;

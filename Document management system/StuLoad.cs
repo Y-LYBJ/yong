@@ -21,7 +21,7 @@ namespace Document_management_system
         public StuLoad()
         {
             InitializeComponent();
-            IconShow.BackgroundImage = Document_management_system.Properties.Resources.闭眼; // 默认显示隐藏密码的图标
+            IconShow.BackgroundImage = Document_management_system.Properties.Resources.睁眼; // 默认显示隐藏密码的图标
         }
 
         public void load_all(string id)
@@ -58,8 +58,6 @@ namespace Document_management_system
         {
             load_all("教师");
         }
-
-<<<<<<< HEAD
         private void IconShow_Click(object sender, EventArgs e)
         {
             if (fals == true)
@@ -83,8 +81,5 @@ namespace Document_management_system
                 fals = true;
             }
         }
-=======
-
->>>>>>> 321402f3346b78498183a4e50c9eacc491179e59
     }
 }
