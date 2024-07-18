@@ -15,7 +15,7 @@ namespace Document_management_system
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new 教师主页面());
+            Application.Run(new LoadChoice());
         }
     }
 
@@ -27,6 +27,7 @@ namespace Document_management_system
         public static string Descreption = "(100字)";
         public static string Password = "Password";
     }
+
 
 
     public class SQLpromgram

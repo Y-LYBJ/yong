@@ -30,7 +30,6 @@ C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Deb
 C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.教师管理稿件.resources
 C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.教师管理账号.resources
 C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.教师设置.resources
-C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.教师设置期数.resources
 C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.编辑主页面.resources
 C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.编辑待处理稿件.resources
 C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.编辑查看稿件状态.resources
@@ -46,3 +45,4 @@ C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Deb
 C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document management system.pdb
 C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document management system.genruntimeconfig.cache
 C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\ref\Document management system.dll
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.教师设置期数.resources

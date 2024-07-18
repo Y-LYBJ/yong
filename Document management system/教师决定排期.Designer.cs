@@ -32,10 +32,11 @@
             // 
             // 教师决定排期
             // 
-            AutoScaleDimensions = new SizeF(9F, 20F);
+            AutoScaleDimensions = new SizeF(11F, 24F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(416, 351);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(4);
             Name = "教师决定排期";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "教师决定排期";
