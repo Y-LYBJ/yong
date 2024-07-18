@@ -67,6 +67,9 @@
     <Compile Update="编辑主页面.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="编辑决定稿件去留.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="编辑待处理稿件.cs">
       <SubType>Form</SubType>
     </Compile>
