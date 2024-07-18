@@ -71,9 +71,9 @@
             // 
             Close.BackgroundImage = Properties.Resources.关闭按钮;
             Close.BackgroundImageLayout = ImageLayout.Stretch;
-            Close.Location = new Point(537, 12);
+            Close.Location = new Point(548, 12);
             Close.Name = "Close";
-            Close.Size = new Size(61, 45);
+            Close.Size = new Size(50, 45);
             Close.TabIndex = 3;
             Close.UseVisualStyleBackColor = true;
             Close.Click += Close_Click;
