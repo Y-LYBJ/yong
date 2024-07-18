@@ -66,7 +66,7 @@
             // 
             BtnSubmission.Font = new Font("黑体", 13.8F);
             BtnSubmission.Location = new Point(287, 158);
-            BtnSubmission.Margin = new Padding(4, 4, 4, 4);
+            BtnSubmission.Margin = new Padding(4);
             BtnSubmission.Name = "BtnSubmission";
             BtnSubmission.Size = new Size(139, 52);
             BtnSubmission.TabIndex = 3;
@@ -78,18 +78,19 @@
             // 
             BtnInquire.Font = new Font("黑体", 13.8F);
             BtnInquire.Location = new Point(287, 247);
-            BtnInquire.Margin = new Padding(4, 4, 4, 4);
+            BtnInquire.Margin = new Padding(4);
             BtnInquire.Name = "BtnInquire";
             BtnInquire.Size = new Size(139, 52);
             BtnInquire.TabIndex = 4;
             BtnInquire.Text = "稿件查询";
             BtnInquire.UseVisualStyleBackColor = true;
+            BtnInquire.Click += BtnInquire_Click;
             // 
             // BtnInformation
             // 
             BtnInformation.Font = new Font("黑体", 13.8F);
             BtnInformation.Location = new Point(287, 335);
-            BtnInformation.Margin = new Padding(4, 4, 4, 4);
+            BtnInformation.Margin = new Padding(4);
             BtnInformation.Name = "BtnInformation";
             BtnInformation.Size = new Size(139, 52);
             BtnInformation.TabIndex = 5;
@@ -124,7 +125,6 @@
             Name = "作者主页面";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "作者主页面";
-            Load += 作者主页面_Load;
             ResumeLayout(false);
             PerformLayout();
         }

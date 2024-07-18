@@ -32,12 +32,11 @@
             // 
             // 教师设置期数
             // 
-            AutoScaleDimensions = new SizeF(9F, 20F);
+            AutoScaleDimensions = new SizeF(11F, 24F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             FormBorderStyle = FormBorderStyle.None;
             Name = "教师设置期数";
-            StartPosition = FormStartPosition.CenterScreen;
             Text = "教师设置期数";
             ResumeLayout(false);
         }

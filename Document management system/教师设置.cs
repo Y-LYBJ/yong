@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -16,6 +17,7 @@ namespace Document_management_system
         {
             InitializeComponent();
         }
+
 
         private void BtnScheduling_Click(object sender, EventArgs e)
         {
@@ -36,6 +38,13 @@ namespace Document_management_system
             教师管理账号 form2 = new 教师管理账号();
             this.Hide();//隐藏当前窗体
             form2.ShowDialog();
+        }
+
+        private void Close_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            教师主页面 form1 = new();
+            form1.ShowDialog();
         }
     }
 }

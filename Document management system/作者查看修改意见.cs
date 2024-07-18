@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Document_management_system
 {
-    public partial class 主编主页面 : Form
+    public partial class 作者查看修改意见 : Form
     {
-        public 主编主页面()
+        public 作者查看修改意见()
         {
             InitializeComponent();
-        }
-
-        private void Close_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
     }
 }

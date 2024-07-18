@@ -34,6 +34,9 @@
     <Compile Update="作者更改密码.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="作者查看修改意见.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="作者查询稿件.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,5 +73,10 @@
     <Compile Update="编辑查看稿件状态.cs">
       <SubType>Form</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="LoadChoice.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

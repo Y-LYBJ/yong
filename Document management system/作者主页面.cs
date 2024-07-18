@@ -15,11 +15,12 @@ namespace Document_management_system
         public 作者主页面()
         {
             InitializeComponent();
+            User.Text = ShowPage.User;
         }
 
         private void Close_Click(object sender, EventArgs e)
         {
-            Close();
+            Application.Exit();
         }
 
         private void BtnInformation_Click(object sender, EventArgs e)
@@ -33,13 +34,15 @@ namespace Document_management_system
         private void BtnSubmission_Click(object sender, EventArgs e)
         {
             作者投稿 form5 = new 作者投稿();
+            form5.Show();
             this.Close();//关闭当前窗体
-            form5.ShowDialog();
         }
 
-        private void 作者主页面_Load(object sender, EventArgs e)
+        private void BtnInquire_Click(object sender, EventArgs e)
         {
-
+            作者查询稿件 form1 = new();
+            form1.Show();
+            this.Close();
         }
     }
 }
