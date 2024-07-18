@@ -28,19 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
+            NowYear = new TextBox();
             SuspendLayout();
+            // 
+            // NowYear
+            // 
+            NowYear.BorderStyle = BorderStyle.FixedSingle;
+            NowYear.Location = new Point(139, 33);
+            NowYear.Name = "NowYear";
+            NowYear.ReadOnly = true;
+            NowYear.Size = new Size(199, 30);
+            NowYear.TabIndex = 0;
             // 
             // 教师设置期数
             // 
             AutoScaleDimensions = new SizeF(11F, 24F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(498, 446);
+            Controls.Add(NowYear);
             FormBorderStyle = FormBorderStyle.None;
             Name = "教师设置期数";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "教师设置期数";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private TextBox NowYear;
     }
 }

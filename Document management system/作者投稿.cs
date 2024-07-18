@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Net;
@@ -22,7 +23,9 @@ namespace Document_management_system
         private void Close_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
+            作者主页面 form1 = new();
+            form1.Show();
+    }
 
         private void Clean()
         {
@@ -55,6 +58,7 @@ namespace Document_management_system
                     byte[] res = client.UploadFile(url, FileName);
                     Status.Text = "上传成功";
                     Status.Visible = true;
+                    SaveArticle(txtName.Text, ShowPage.User, txtType.Text, url);
                     Clean();
                 }
                 catch
@@ -64,6 +68,19 @@ namespace Document_management_system
                 }
             }
             else { MessageBox.Show("请输入保存名称和类型！"); }
+        }
+
+        public void SaveArticle(string Name, string organi, string type, string url)
+        {
+            SqlConnection conn = new SqlConnection();
+            conn.ConnectionString = "Data Source=192.168.1.6,1433;Initial Catalog=\"management system\";Integrated Security=True;User ID = sa;pwd = 123456";
+            conn.Open();
+            string sql1 = "INSERT INTO Article (article,organization,url,type) VALUES ('";
+            string sql2 = Name + "','" + organi + "','" + url + "','" + type + "')";
+            string sql = sql1 + sql2;
+            SqlCommand cmd = new SqlCommand(sql);
+            cmd.Connection = conn;
+            cmd.ExecuteNonQuery();
         }
     }
 }

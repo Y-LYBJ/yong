@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -26,7 +28,7 @@ namespace Document_management_system
             this.Close();
         }
 
-        private void BtnOk_Click(object sender, EventArgs e)
+        private void BtnOk_Click_1(object sender, EventArgs e)
         {
             if (!String.IsNullOrEmpty(txtFresh.Text))
             {

@@ -15,6 +15,7 @@ namespace Document_management_system
         public SQLpromgram s = new();
         private
             作者个人资料 w1 = new();
+            作者主页面 w2 = new();
         public 作者修改资料()
         {
             InitializeComponent();
@@ -30,7 +31,8 @@ namespace Document_management_system
             this.Close();
         }
 
-        private void BtnOk_Click(object sender, EventArgs e)
+
+        private void BtnOk_Click_1(object sender, EventArgs e)
         {
             if (lblDescreption.Text.Length > 100)
             {
@@ -38,12 +40,15 @@ namespace Document_management_system
             }
             else
             {
-                s.SqlChangeDes(lblDescreption.Text);
-                w1.Show();
-                this.Close();
-
+                try
+                {
+                    s.SqlChangeDes(lblDescreption.Text);
+                    MessageBox.Show("修改成功");
+                    w2.Show();
+                    this.Close();
+                }
+                catch { MessageBox.Show("修改失败..."); }
             }
-
         }
     }
 }
