@@ -28,7 +28,13 @@ namespace Document_management_system
         public static string Password = "Password";
     }
 
-
+    public class ArtPage
+    {
+        public static string Article = "";
+        public static string Descreption = "";
+        public static string Organize = "";
+        public static string Type = "";
+    }
 
     public class SQLpromgram
     {

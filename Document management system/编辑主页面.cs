@@ -26,8 +26,15 @@ namespace Document_management_system
         private void BtnPending_Click(object sender, EventArgs e)
         {
             编辑待处理稿件 form1 = new();
-            form1.ShowDialog();
-            this.Close();
+            form1.Show();
+            this.Hide();
+        }
+
+        private void BtnState_Click(object sender, EventArgs e)
+        {
+            编辑查看稿件状态 form2 = new();
+            form2.Show();
+            this.Hide();
         }
     }
 }
