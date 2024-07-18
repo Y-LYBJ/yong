@@ -22,5 +22,12 @@ namespace Document_management_system
         {
             Application.Exit();
         }
+
+        private void LblPassword_Click(object sender, EventArgs e)
+        {
+            主编更改密码 form3 = new 主编更改密码();
+            this.Hide();//隐藏当前窗体
+            form3.ShowDialog();
+        }
     }
 }
