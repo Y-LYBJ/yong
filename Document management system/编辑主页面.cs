@@ -36,5 +36,12 @@ namespace Document_management_system
             form2.Show();
             this.Hide();
         }
+
+        private void LblPassword_Click(object sender, EventArgs e)
+        {
+            编辑更改密码 form3 = new 编辑更改密码();
+            this.Hide();//隐藏当前窗体
+            form3.ShowDialog();
+        }
     }
 }

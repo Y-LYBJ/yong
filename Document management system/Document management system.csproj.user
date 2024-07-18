@@ -22,6 +22,9 @@
     <Compile Update="主编拟定排期.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="主编更改密码.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="作者个人资料.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +77,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="编辑待处理稿件.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="编辑更改密码.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="编辑查看稿件状态.cs">
