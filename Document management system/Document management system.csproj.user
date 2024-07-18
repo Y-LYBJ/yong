@@ -13,6 +13,9 @@
     <Compile Update="主编主页面.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="主编审查稿件.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="主编待处理稿件.cs">
       <SubType>Form</SubType>
     </Compile>

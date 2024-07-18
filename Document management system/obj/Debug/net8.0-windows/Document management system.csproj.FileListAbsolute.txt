@@ -95,3 +95,5 @@ E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-w
 E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document management system.pdb
 E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document management system.genruntimeconfig.cache
 E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\ref\Document management system.dll
+E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.主编审查稿件.resources
+E:\程序设计大赛\版本2\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.编辑决定稿件去留.resources
