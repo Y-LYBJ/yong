@@ -15,6 +15,7 @@ namespace Document_management_system
         public 教师设置期数()
         {
             InitializeComponent();
+            NowYear.Text = System.DateTime.Now.Year.ToString();
         }
     }
 }

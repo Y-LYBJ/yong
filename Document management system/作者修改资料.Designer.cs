@@ -128,6 +128,7 @@
             BtnOk.TabIndex = 8;
             BtnOk.Text = "确定";
             BtnOk.UseVisualStyleBackColor = true;
+            BtnOk.Click += BtnOk_Click_1;
             // 
             // lblDescreption
             // 
@@ -135,7 +136,6 @@
             lblDescreption.Margin = new Padding(4);
             lblDescreption.Multiline = true;
             lblDescreption.Name = "lblDescreption";
-            lblDescreption.ReadOnly = true;
             lblDescreption.Size = new Size(391, 165);
             lblDescreption.TabIndex = 9;
             lblDescreption.Text = "（100字）";

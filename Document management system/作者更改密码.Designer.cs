@@ -121,6 +121,7 @@
             BtnOk.TabIndex = 7;
             BtnOk.Text = "确认";
             BtnOk.UseVisualStyleBackColor = true;
+            BtnOk.Click += BtnOk_Click_1;
             // 
             // 作者更改密码
             // 
