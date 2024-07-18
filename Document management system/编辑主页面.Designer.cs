@@ -65,18 +65,19 @@
             // 
             BtnPending.Font = new Font("黑体", 13.8F);
             BtnPending.Location = new Point(287, 156);
-            BtnPending.Margin = new Padding(4, 4, 4, 4);
+            BtnPending.Margin = new Padding(4);
             BtnPending.Name = "BtnPending";
             BtnPending.Size = new Size(187, 61);
             BtnPending.TabIndex = 3;
             BtnPending.Text = "待处理稿件";
             BtnPending.UseVisualStyleBackColor = true;
+            BtnPending.Click += BtnPending_Click;
             // 
             // BtnState
             // 
             BtnState.Font = new Font("黑体", 13.8F);
             BtnState.Location = new Point(287, 304);
-            BtnState.Margin = new Padding(4, 4, 4, 4);
+            BtnState.Margin = new Padding(4);
             BtnState.Name = "BtnState";
             BtnState.Size = new Size(187, 61);
             BtnState.TabIndex = 4;

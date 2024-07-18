@@ -15,12 +15,19 @@ namespace Document_management_system
         public 编辑主页面()
         {
             InitializeComponent();
-            Application.OpenForms["LoadChoice"].Hide();
+            ///    Application.OpenForms["LoadChoice"].Hide();
         }
 
         private void Close_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void BtnPending_Click(object sender, EventArgs e)
+        {
+            编辑待处理稿件 form1 = new();
+            form1.ShowDialog();
+            this.Close();
         }
     }
 }
