@@ -28,7 +28,7 @@ namespace Document_management_system
                 SqlConnection conn = new();
                 conn.ConnectionString = "Data Source=192.168.1.6,1433;Initial Catalog=\"management system\";Integrated Security=True;User ID = sa;pwd = 123456";
                 conn.Open();
-                string sql = "select article,checkState,auditor from Back";
+                string sql = "select * from Back";
                 SqlCommand cmd = new(sql);
                 cmd.Connection = conn;
                 SqlDataAdapter adapter = new SqlDataAdapter();
@@ -40,6 +40,7 @@ namespace Document_management_system
                 dataGridView1.Columns["article"].HeaderText = "稿件名称";
                 dataGridView1.Columns["checkState"].HeaderText = "稿件状态";
                 dataGridView1.Columns["auditor"].HeaderText = "审核员";
+                dataGridView1.Columns[2].Visible = false;
                 conn.Close();
 
             }
@@ -55,6 +56,43 @@ namespace Document_management_system
         {
             this.Close();
             w1.Show();
+        }
+
+        public string art;
+        public void SqlArt()     ///引入文章信息
+        {
+            SqlConnection conn = new();
+            conn.ConnectionString = "Data Source=192.168.1.6,1433;Initial Catalog=\"management system\";Integrated Security=True;User ID = sa;pwd = 123456";
+            conn.Open();
+            string sql = "select * from Article where article= '" + ArtPage.Article + "'";
+            SqlCommand cmd = new(sql);
+            cmd.Connection = conn;
+            SqlDataReader mys = cmd.ExecuteReader();
+            while (mys.Read())
+            {
+                ArtPage.Organize = mys.GetString(mys.GetOrdinal("organization"));
+                ArtPage.Type= mys.GetString(mys.GetOrdinal("type"));
+            }
+        }
+        private void Detail_Click(object sender, EventArgs e)
+        {
+            string state = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+            if (state == "已审核")
+            {
+                ArtPage.Article = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+                ArtPage.Advice = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+                SqlArt();
+                this.Hide();
+                编辑决定稿件去留 form1 = new();
+                form1.ShowDialog();
+                Show.Visible = false;
+            }
+            else
+            {
+                Show.Text = "文章审核尚未通过";
+                Show.Visible = true;
+            }
+            
         }
     }
 }

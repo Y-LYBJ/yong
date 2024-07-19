@@ -31,6 +31,7 @@
             dataGridView1 = new DataGridView();
             Close = new Button();
             Detail = new Button();
+            Show = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -72,12 +73,24 @@
             Detail.TabIndex = 3;
             Detail.Text = "稿件详细";
             Detail.UseVisualStyleBackColor = true;
+            Detail.Click += Detail_Click;
+            // 
+            // Show
+            // 
+            Show.AutoSize = true;
+            Show.Location = new Point(797, 401);
+            Show.Name = "Show";
+            Show.Size = new Size(46, 24);
+            Show.TabIndex = 4;
+            Show.Text = "提醒";
+            Show.Visible = false;
             // 
             // 编辑查看稿件状态
             // 
             AutoScaleDimensions = new SizeF(11F, 24F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(978, 540);
+            Controls.Add(Show);
             Controls.Add(Detail);
             Controls.Add(Close);
             Controls.Add(dataGridView1);
@@ -88,6 +101,7 @@
             Text = "编辑查看稿件状态";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -95,5 +109,6 @@
         private DataGridView dataGridView1;
         private Button Close;
         private Button Detail;
+        private Label Show;
     }
 }
