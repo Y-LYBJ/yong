@@ -8,54 +8,93 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Reflection.Metadata;
+using Word = Microsoft.Office.Interop.Word;
+using System.Data.SqlClient;
 
 namespace Document_management_system
 {
     public partial class 主编审查稿件 : Form
     {
-        private string filePath = "你的文件路径"; // 假设文件路径在这里定义
+        private string filePath = ArtPage.Path; // 假设文件路径在这里定义
 
         public 主编审查稿件()
         {
             InitializeComponent();
-            RtxtArtical.TextChanged += RtxtArtical_TextChanged; // 绑定TextChanged事件
+            ArtShow(filePath);
         }
 
-        private void RtxtArtical_TextChanged(object sender, EventArgs e)
+        private void ArtShow(string fileName)
         {
-            const int bufferSize = 100; // 每次读取的字节数
-            const int charBufferLength = 1024; // 初始字符缓冲区长度
-            byte[] byData = new byte[bufferSize];
-            StringBuilder charDataBuilder = new StringBuilder(charBufferLength); // 使用StringBuilder来动态扩展字符数据
+            Word.Application app = new Word.Application();//可以打开word
+            Word.Document doc = null;      //需要记录打开的word
+
+            object missing = System.Reflection.Missing.Value;
+            object File = fileName;
+            object readOnly = true;//只读
+            object isVisible = true;
+
+            object unknow = Type.Missing;
 
             try
             {
-                FileStream file = new FileStream(filePath, FileMode.Open, FileAccess.Read);
-                file.Seek(0, SeekOrigin.Begin);
+                doc = app.Documents.Open(ref File, ref missing, ref readOnly,
+                 ref missing, ref missing, ref missing, ref missing, ref missing,
+                 ref missing, ref missing, ref missing, ref isVisible, ref missing,
+                 ref missing, ref missing, ref missing);
 
-                Decoder d = Encoding.UTF8.GetDecoder();
-
-                while (true)
+                RtxtArtical.Text = doc.Content.Text;//richTextBox1.Text = doc.Content.Text;//显示无格式数据
+            }
+            finally
+            {
+                if (doc != null)
                 {
-                    int bytesRead = file.Read(byData, 0, bufferSize);
-                    if (bytesRead == 0)
-                        break; // 文件读取完毕
-
-                    char[] charBuffer = new char[charBufferLength];
-                    int charsDecoded = d.GetChars(byData, 0, bytesRead, charBuffer, 0);
-
-                    charDataBuilder.Append(charBuffer, 0, charsDecoded);
+                    doc.Close(ref missing, ref missing, ref missing);
+                    doc = null;
                 }
 
-                RtxtArtical.Text = charDataBuilder.ToString();
-                file.Close();
-            }
-            catch (IOException ex)
-            {
-                MessageBox.Show(ex.ToString());
+                if (app != null)
+                {
+                    app.Quit(ref missing, ref missing, ref missing);
+                    app = null;
+                }
             }
         }
 
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            主编主页面 w1 = new();
+            w1.Show();
+        }
 
+        private void btnOk_Click(object sender, EventArgs e)
+        {
+            if(!string.IsNullOrEmpty(txtReview.Text))
+            {
+                if (MessageBox.Show("确定提交审核意见吗，提交后不可修改","提示",MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    try
+                    {
+                        SqlConnection conn = new SqlConnection();
+                        conn.ConnectionString = "Data Source=192.168.1.6,1433;Initial Catalog=\"management system\";Integrated Security=True;User ID = sa;pwd = 123456";
+                        conn.Open();
+                        string sql = "UPDATE Back SET advice = '" + txtReview.Text + "',checkState = '已审核' where article= '" + ArtPage.Article + "'";
+                        SqlCommand cmd = new SqlCommand(sql);
+                        cmd.Connection = conn;
+                        cmd.ExecuteNonQuery();
+                        conn.Close();
+                        MessageBox.Show("意见提交成功");
+                        btnOk.Enabled = false;
+                        txtReview.ReadOnly = true;
+                    }
+                    catch { MessageBox.Show("请输入正确的文字信息！"); }
+                }
+            }
+            else
+            {
+                MessageBox.Show("请输入您的审核意见！", "提醒");
+            }
+        }
     }
 }

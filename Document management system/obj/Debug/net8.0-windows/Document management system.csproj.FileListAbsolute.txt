@@ -155,3 +155,6 @@ E:\程序设计大赛\版本3\yong\Document management system\obj\Debug\net8.0-w
 E:\程序设计大赛\版本3\yong\Document management system\obj\Debug\net8.0-windows\ref\Document management system.dll
 C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.主编更改密码.resources
 C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.编辑更改密码.resources
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document_management_system.缓存过渡窗体.resources
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Interop.Microsoft.Office.Interop.Word.dll
+C:\Users\野原新之助\Desktop\Project\yong\Document management system\obj\Debug\net8.0-windows\Document management system.csproj.ResolveComReference.cache

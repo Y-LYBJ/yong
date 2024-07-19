@@ -3,68 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|c:\\users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\desktop\\project\\yong\\document management system\\\u7F16\u8F91\u67E5\u770B\u7A3F\u4EF6\u72B6\u6001.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u7F16\u8F91\u67E5\u770B\u7A3F\u4EF6\u72B6\u6001.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|c:\\users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\desktop\\project\\yong\\document management system\\\u4E3B\u7F16\u5F85\u5904\u7406\u7A3F\u4EF6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u4E3B\u7F16\u5F85\u5904\u7406\u7A3F\u4EF6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\document management system\\\u7F16\u8F91\u67E5\u770B\u7A3F\u4EF6\u72B6\u6001.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u7F16\u8F91\u67E5\u770B\u7A3F\u4EF6\u72B6\u6001.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|c:\\users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\desktop\\project\\yong\\document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|c:\\users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\desktop\\project\\yong\\document management system\\\u7F16\u8F91\u5F85\u5904\u7406\u7A3F\u4EF6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u7F16\u8F91\u5F85\u5904\u7406\u7A3F\u4EF6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|c:\\users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\desktop\\project\\yong\\document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\document management system\\\u7F16\u8F91\u51B3\u5B9A\u7A3F\u4EF6\u53BB\u7559.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u7F16\u8F91\u51B3\u5B9A\u7A3F\u4EF6\u53BB\u7559.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|c:\\users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\desktop\\project\\yong\\document management system\\\u4E3B\u7F16\u5F85\u5904\u7406\u7A3F\u4EF6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u4E3B\u7F16\u5F85\u5904\u7406\u7A3F\u4EF6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|c:\\users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\desktop\\project\\yong\\document management system\\\u7F16\u8F91\u4E3B\u9875\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u7F16\u8F91\u4E3B\u9875\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|c:\\users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\desktop\\project\\yong\\document management system\\\u7F16\u8F91\u51B3\u5B9A\u7A3F\u4EF6\u53BB\u7559.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u7F16\u8F91\u51B3\u5B9A\u7A3F\u4EF6\u53BB\u7559.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\document management system\\\u7F16\u8F91\u4E3B\u9875\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u7F16\u8F91\u4E3B\u9875\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|c:\\users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\desktop\\project\\yong\\document management system\\\u4E3B\u7F16\u4E3B\u9875\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u4E3B\u7F16\u4E3B\u9875\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|c:\\users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\desktop\\project\\yong\\document management system\\\u6559\u5E08\u7BA1\u7406\u8D26\u53F7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u6559\u5E08\u7BA1\u7406\u8D26\u53F7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\document management system\\\u4F5C\u8005\u4E3B\u9875\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u4F5C\u8005\u4E3B\u9875\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\document management system\\stuload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\stuload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|c:\\users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\desktop\\project\\yong\\document management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|c:\\users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\desktop\\project\\yong\\document management system\\loadchoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\loadchoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|c:\\users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\desktop\\project\\yong\\document management system\\\u4F5C\u8005\u4E3B\u9875\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u4F5C\u8005\u4E3B\u9875\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\document management system\\loadchoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\loadchoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|c:\\users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\desktop\\project\\yong\\document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\document management system\\stuload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\stuload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\document management system\\\u4F5C\u8005\u4E3B\u9875\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u4F5C\u8005\u4E3B\u9875\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\document management system\\\u6559\u5E08\u67E5\u770B\u5DF2\u5F55\u7528\u7A3F\u4EF6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u6559\u5E08\u67E5\u770B\u5DF2\u5F55\u7528\u7A3F\u4EF6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|c:\\users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\desktop\\project\\yong\\document management system\\\u7F16\u8F91\u67E5\u770B\u7A3F\u4EF6\u72B6\u6001.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u7F16\u8F91\u67E5\u770B\u7A3F\u4EF6\u72B6\u6001.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|c:\\users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\desktop\\project\\yong\\document management system\\\u7F13\u5B58\u8FC7\u6E21\u7A97\u4F53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u7F13\u5B58\u8FC7\u6E21\u7A97\u4F53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|c:\\users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\desktop\\project\\yong\\document management system\\\u7F13\u5B58\u8FC7\u6E21\u7A97\u4F53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u7F13\u5B58\u8FC7\u6E21\u7A97\u4F53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|c:\\users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\desktop\\project\\yong\\document management system\\\u7F13\u5B58\u8FC7\u6E21\u7A97\u4F53.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u7F13\u5B58\u8FC7\u6E21\u7A97\u4F53.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|c:\\users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\desktop\\project\\yong\\document management system\\\u7F16\u8F91\u67E5\u770B\u7A3F\u4EF6\u72B6\u6001.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u7F16\u8F91\u67E5\u770B\u7A3F\u4EF6\u72B6\u6001.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|c:\\users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\desktop\\project\\yong\\document management system\\stuload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\stuload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\document management system\\\u4E3B\u7F16\u4E3B\u9875\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u4E3B\u7F16\u4E3B\u9875\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\document management system\\\u6559\u5E08\u4E3B\u9875\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F043B88-FEE4-46AA-AEA4-B124A805FE7E}|Document management system\\Document management system.csproj|solutionrelative:document management system\\\u6559\u5E08\u4E3B\u9875\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,11 +82,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "StuLoad.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\StuLoad.cs",
               "RelativeDocumentMoniker": "Document management system\\StuLoad.cs",
@@ -86,57 +94,35 @@
               "RelativeToolTip": "Document management system\\StuLoad.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-14T05:29:29.007Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [\u8BBE\u8BA1]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "\u6559\u5E08\u4E3B\u9875\u9762.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u6559\u5E08\u4E3B\u9875\u9762.cs",
-              "RelativeDocumentMoniker": "Document management system\\\u6559\u5E08\u4E3B\u9875\u9762.cs",
-              "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u6559\u5E08\u4E3B\u9875\u9762.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "Document management system\\\u6559\u5E08\u4E3B\u9875\u9762.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2024-07-15T06:35:21.133Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "\u4E3B\u7F16\u4E3B\u9875\u9762.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u4E3B\u7F16\u4E3B\u9875\u9762.cs",
               "RelativeDocumentMoniker": "Document management system\\\u4E3B\u7F16\u4E3B\u9875\u9762.cs",
               "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u4E3B\u7F16\u4E3B\u9875\u9762.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "Document management system\\\u4E3B\u7F16\u4E3B\u9875\u9762.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-15T06:35:22.234Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [\u8BBE\u8BA1]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "\u7F16\u8F91\u4E3B\u9875\u9762.cs",
-              "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u7F16\u8F91\u4E3B\u9875\u9762.cs",
-              "RelativeDocumentMoniker": "Document management system\\\u7F16\u8F91\u4E3B\u9875\u9762.cs",
-              "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u7F16\u8F91\u4E3B\u9875\u9762.cs",
-              "RelativeToolTip": "Document management system\\\u7F16\u8F91\u4E3B\u9875\u9762.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAZAAAA",
+              "DocumentIndex": 9,
+              "Title": "\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.Designer.cs",
+              "RelativeDocumentMoniker": "Document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.Designer.cs",
+              "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.Designer.cs",
+              "RelativeToolTip": "Document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.Designer.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAArwCUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T05:25:08.294Z",
+              "WhenOpened": "2024-07-19T06:11:53.109Z",
               "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "\u6559\u5E08\u67E5\u770B\u5DF2\u5F55\u7528\u7A3F\u4EF6.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u6559\u5E08\u67E5\u770B\u5DF2\u5F55\u7528\u7A3F\u4EF6.cs",
-              "RelativeDocumentMoniker": "Document management system\\\u6559\u5E08\u67E5\u770B\u5DF2\u5F55\u7528\u7A3F\u4EF6.cs",
-              "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u6559\u5E08\u67E5\u770B\u5DF2\u5F55\u7528\u7A3F\u4EF6.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "Document management system\\\u6559\u5E08\u67E5\u770B\u5DF2\u5F55\u7528\u7A3F\u4EF6.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T06:25:40.331Z",
-              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -160,71 +146,172 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "\u7F16\u8F91\u5F85\u5904\u7406\u7A3F\u4EF6.cs",
-              "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u7F16\u8F91\u5F85\u5904\u7406\u7A3F\u4EF6.cs",
-              "RelativeDocumentMoniker": "Document management system\\\u7F16\u8F91\u5F85\u5904\u7406\u7A3F\u4EF6.cs",
-              "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u7F16\u8F91\u5F85\u5904\u7406\u7A3F\u4EF6.cs",
-              "RelativeToolTip": "Document management system\\\u7F16\u8F91\u5F85\u5904\u7406\u7A3F\u4EF6.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAgwFUAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T01:56:13.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "\u6559\u5E08\u7BA1\u7406\u8D26\u53F7.cs",
               "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u6559\u5E08\u7BA1\u7406\u8D26\u53F7.cs",
               "RelativeDocumentMoniker": "Document management system\\\u6559\u5E08\u7BA1\u7406\u8D26\u53F7.cs",
               "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u6559\u5E08\u7BA1\u7406\u8D26\u53F7.cs",
               "RelativeToolTip": "Document management system\\\u6559\u5E08\u7BA1\u7406\u8D26\u53F7.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAADwvyEAAAA1AAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAnwD8AAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T01:13:38.268Z",
+              "WhenOpened": "2024-07-19T06:47:43.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "\u7F16\u8F91\u51B3\u5B9A\u7A3F\u4EF6\u53BB\u7559.cs",
-              "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u7F16\u8F91\u51B3\u5B9A\u7A3F\u4EF6\u53BB\u7559.cs",
-              "RelativeDocumentMoniker": "Document management system\\\u7F16\u8F91\u51B3\u5B9A\u7A3F\u4EF6\u53BB\u7559.cs",
-              "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u7F16\u8F91\u51B3\u5B9A\u7A3F\u4EF6\u53BB\u7559.cs",
-              "RelativeToolTip": "Document management system\\\u7F16\u8F91\u51B3\u5B9A\u7A3F\u4EF6\u53BB\u7559.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAIwEUAAAAJAAAA",
+              "DocumentIndex": 13,
+              "Title": "\u7F13\u5B58\u8FC7\u6E21\u7A97\u4F53.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u7F13\u5B58\u8FC7\u6E21\u7A97\u4F53.cs",
+              "RelativeDocumentMoniker": "Document management system\\\u7F13\u5B58\u8FC7\u6E21\u7A97\u4F53.cs",
+              "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u7F13\u5B58\u8FC7\u6E21\u7A97\u4F53.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Document management system\\\u7F13\u5B58\u8FC7\u6E21\u7A97\u4F53.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T00:59:38.283Z",
+              "WhenOpened": "2024-07-19T06:04:28.143Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "\u7F13\u5B58\u8FC7\u6E21\u7A97\u4F53.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u7F13\u5B58\u8FC7\u6E21\u7A97\u4F53.Designer.cs",
+              "RelativeDocumentMoniker": "Document management system\\\u7F13\u5B58\u8FC7\u6E21\u7A97\u4F53.Designer.cs",
+              "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u7F13\u5B58\u8FC7\u6E21\u7A97\u4F53.Designer.cs",
+              "RelativeToolTip": "Document management system\\\u7F13\u5B58\u8FC7\u6E21\u7A97\u4F53.Designer.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAWwDMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T06:04:21.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
+              "Title": "\u7F13\u5B58\u8FC7\u6E21\u7A97\u4F53.cs",
+              "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u7F13\u5B58\u8FC7\u6E21\u7A97\u4F53.cs",
+              "RelativeDocumentMoniker": "Document management system\\\u7F13\u5B58\u8FC7\u6E21\u7A97\u4F53.cs",
+              "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u7F13\u5B58\u8FC7\u6E21\u7A97\u4F53.cs",
+              "RelativeToolTip": "Document management system\\\u7F13\u5B58\u8FC7\u6E21\u7A97\u4F53.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAD4vxsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T06:03:25.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.cs",
+              "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.cs",
+              "RelativeDocumentMoniker": "Document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.cs",
+              "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.cs",
+              "RelativeToolTip": "Document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAiwFoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T05:57:54.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "\u7F16\u8F91\u67E5\u770B\u7A3F\u4EF6\u72B6\u6001.cs",
               "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u7F16\u8F91\u67E5\u770B\u7A3F\u4EF6\u72B6\u6001.cs",
               "RelativeDocumentMoniker": "Document management system\\\u7F16\u8F91\u67E5\u770B\u7A3F\u4EF6\u72B6\u6001.cs",
               "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u7F16\u8F91\u67E5\u770B\u7A3F\u4EF6\u72B6\u6001.cs",
               "RelativeToolTip": "Document management system\\\u7F16\u8F91\u67E5\u770B\u7A3F\u4EF6\u72B6\u6001.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAASwGMAAAANAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAYwFUAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T08:27:00.52Z",
+              "WhenOpened": "2024-07-19T05:52:42.774Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 15,
               "Title": "\u7F16\u8F91\u67E5\u770B\u7A3F\u4EF6\u72B6\u6001.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u7F16\u8F91\u67E5\u770B\u7A3F\u4EF6\u72B6\u6001.cs",
               "RelativeDocumentMoniker": "Document management system\\\u7F16\u8F91\u67E5\u770B\u7A3F\u4EF6\u72B6\u6001.cs",
               "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u7F16\u8F91\u67E5\u770B\u7A3F\u4EF6\u72B6\u6001.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "Document management system\\\u7F16\u8F91\u67E5\u770B\u7A3F\u4EF6\u72B6\u6001.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T08:24:51.989Z",
+              "WhenOpened": "2024-07-19T05:52:40.873Z",
               "EditorCaption": " [\u8BBE\u8BA1]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "\u4F5C\u8005\u4E3B\u9875\u9762.cs",
+              "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u4F5C\u8005\u4E3B\u9875\u9762.cs",
+              "RelativeDocumentMoniker": "Document management system\\\u4F5C\u8005\u4E3B\u9875\u9762.cs",
+              "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u4F5C\u8005\u4E3B\u9875\u9762.cs",
+              "RelativeToolTip": "Document management system\\\u4F5C\u8005\u4E3B\u9875\u9762.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T02:48:31.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StuLoad.cs",
+              "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\StuLoad.cs",
+              "RelativeDocumentMoniker": "Document management system\\StuLoad.cs",
+              "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\StuLoad.cs",
+              "RelativeToolTip": "Document management system\\StuLoad.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAQwEEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T02:54:07.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "\u4E3B\u7F16\u4E3B\u9875\u9762.cs",
+              "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u4E3B\u7F16\u4E3B\u9875\u9762.cs",
+              "RelativeDocumentMoniker": "Document management system\\\u4E3B\u7F16\u4E3B\u9875\u9762.cs",
+              "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u4E3B\u7F16\u4E3B\u9875\u9762.cs",
+              "RelativeToolTip": "Document management system\\\u4E3B\u7F16\u4E3B\u9875\u9762.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAWwCIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T02:49:29.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "\u4E3B\u7F16\u5F85\u5904\u7406\u7A3F\u4EF6.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u4E3B\u7F16\u5F85\u5904\u7406\u7A3F\u4EF6.cs",
+              "RelativeDocumentMoniker": "Document management system\\\u4E3B\u7F16\u5F85\u5904\u7406\u7A3F\u4EF6.cs",
+              "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u4E3B\u7F16\u5F85\u5904\u7406\u7A3F\u4EF6.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Document management system\\\u4E3B\u7F16\u5F85\u5904\u7406\u7A3F\u4EF6.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T02:31:31.357Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u4E3B\u7F16\u5F85\u5904\u7406\u7A3F\u4EF6.cs",
+              "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u4E3B\u7F16\u5F85\u5904\u7406\u7A3F\u4EF6.cs",
+              "RelativeDocumentMoniker": "Document management system\\\u4E3B\u7F16\u5F85\u5904\u7406\u7A3F\u4EF6.cs",
+              "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u4E3B\u7F16\u5F85\u5904\u7406\u7A3F\u4EF6.cs",
+              "RelativeToolTip": "Document management system\\\u4E3B\u7F16\u5F85\u5904\u7406\u7A3F\u4EF6.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAiwFkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T02:30:58.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.cs",
+              "RelativeDocumentMoniker": "Document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.cs",
+              "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Document management system\\\u4E3B\u7F16\u5BA1\u67E5\u7A3F\u4EF6.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T02:26:46.443Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "\u4F5C\u8005\u4E3B\u9875\u9762.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u4F5C\u8005\u4E3B\u9875\u9762.cs",
               "RelativeDocumentMoniker": "Document management system\\\u4F5C\u8005\u4E3B\u9875\u9762.cs",
@@ -236,61 +323,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "\u7F16\u8F91\u51B3\u5B9A\u7A3F\u4EF6\u53BB\u7559.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u7F16\u8F91\u51B3\u5B9A\u7A3F\u4EF6\u53BB\u7559.cs",
-              "RelativeDocumentMoniker": "Document management system\\\u7F16\u8F91\u51B3\u5B9A\u7A3F\u4EF6\u53BB\u7559.cs",
-              "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u7F16\u8F91\u51B3\u5B9A\u7A3F\u4EF6\u53BB\u7559.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "Document management system\\\u7F16\u8F91\u51B3\u5B9A\u7A3F\u4EF6\u53BB\u7559.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T06:03:26.771Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "\u7F16\u8F91\u4E3B\u9875\u9762.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u7F16\u8F91\u4E3B\u9875\u9762.cs",
-              "RelativeDocumentMoniker": "Document management system\\\u7F16\u8F91\u4E3B\u9875\u9762.cs",
-              "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\\u7F16\u8F91\u4E3B\u9875\u9762.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "Document management system\\\u7F16\u8F91\u4E3B\u9875\u9762.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T05:17:47.38Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoadChoice.cs",
-              "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\LoadChoice.cs",
-              "RelativeDocumentMoniker": "Document management system\\LoadChoice.cs",
-              "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\LoadChoice.cs",
-              "RelativeToolTip": "Document management system\\LoadChoice.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T05:06:10.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LoadChoice.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\LoadChoice.cs",
-              "RelativeDocumentMoniker": "Document management system\\LoadChoice.cs",
-              "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\LoadChoice.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "Document management system\\LoadChoice.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T05:06:04.383Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\Program.cs",
               "RelativeDocumentMoniker": "Document management system\\Program.cs",
               "ToolTip": "C:\\Users\\\u91CE\u539F\u65B0\u4E4B\u52A9\\Desktop\\Project\\yong\\Document management system\\Program.cs",
               "RelativeToolTip": "Document management system\\Program.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAA7wHQAAAA1AAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAIA7wG0AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-17T09:47:00.649Z",
               "EditorCaption": ""

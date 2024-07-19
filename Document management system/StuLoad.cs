@@ -55,7 +55,7 @@ namespace Document_management_system
                     this.Hide();
                     ShowPage.Account = Account.Text;
                     ShowPage.Password = Password.Text;
-                    s.SqlAuthor();
+                    s.SqlAudior();
                 }
                 else MessageBox.Show("账号或密码错误");
             }
@@ -74,7 +74,7 @@ namespace Document_management_system
                     this.Hide();
                     ShowPage.Account = Account.Text;
                     ShowPage.Password = Password.Text;
-                    s.SqlAuthor();
+                    s.SqlAudior();
                 }
                 else MessageBox.Show("账号或密码错误");
             }

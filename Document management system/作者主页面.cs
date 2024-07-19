@@ -15,6 +15,7 @@ namespace Document_management_system
         public 作者主页面()
         {
             InitializeComponent();
+            User.Text = ShowPage.User;
             Application.OpenForms["LoadChoice"].Hide();
         }
 

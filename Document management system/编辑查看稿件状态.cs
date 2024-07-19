@@ -57,7 +57,6 @@ namespace Document_management_system
             w1.Show();
         }
 
-        public string art;
         public void SqlArt()     ///引入文章信息
         {
             SqlConnection conn = new();

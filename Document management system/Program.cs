@@ -15,7 +15,7 @@ namespace Document_management_system
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new 编辑主页面());
+            Application.Run(new LoadChoice());
         }
     }
 
@@ -34,6 +34,7 @@ namespace Document_management_system
         public static string Advice = "";
         public static string Organize = "";
         public static string Type = "";
+        public static string Path = "";
     }
 
     public class SQLpromgram
@@ -78,6 +79,20 @@ namespace Document_management_system
             }
         }
 
+        public void SqlAudior()      ///引入编辑和主编信息
+        {
+            SqlConnection conn = new();
+            conn.ConnectionString = "Data Source=192.168.1.6,1433;Initial Catalog=\"management system\";Integrated Security=True;User ID = sa;pwd = 123456";
+            conn.Open();
+            string sql = "select * from Load where account= '" + ShowPage.Account + "'";
+            SqlCommand cmd = new(sql);
+            cmd.Connection = conn;
+            SqlDataReader mys = cmd.ExecuteReader();
+            while (mys.Read())
+            {
+                ShowPage.User = mys.GetString(mys.GetOrdinal("organization"));
+            }
+        }
         public void SqlChangeDes(string Des)    ///修改简介
         {
             try
