@@ -43,10 +43,10 @@
             Close.BackgroundImage = Properties.Resources.关闭按钮;
             Close.BackgroundImageLayout = ImageLayout.Stretch;
             Close.FlatStyle = FlatStyle.Popup;
-            Close.Location = new Point(560, 11);
+            Close.Location = new Point(684, 13);
             Close.Margin = new Padding(2);
             Close.Name = "Close";
-            Close.Size = new Size(39, 36);
+            Close.Size = new Size(48, 43);
             Close.TabIndex = 0;
             Close.UseVisualStyleBackColor = false;
             Close.Click += Close_Click;
@@ -55,28 +55,32 @@
             // 
             lblChiefEditor.AutoSize = true;
             lblChiefEditor.Font = new Font("宋体", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            lblChiefEditor.Location = new Point(12, 11);
+            lblChiefEditor.Location = new Point(15, 13);
+            lblChiefEditor.Margin = new Padding(4, 0, 4, 0);
             lblChiefEditor.Name = "lblChiefEditor";
-            lblChiefEditor.Size = new Size(79, 23);
+            lblChiefEditor.Size = new Size(96, 28);
             lblChiefEditor.TabIndex = 1;
             lblChiefEditor.Text = "你好，";
             // 
             // BtnCensor
             // 
             BtnCensor.Font = new Font("黑体", 13.8F);
-            BtnCensor.Location = new Point(233, 134);
+            BtnCensor.Location = new Point(285, 161);
+            BtnCensor.Margin = new Padding(4, 4, 4, 4);
             BtnCensor.Name = "BtnCensor";
-            BtnCensor.Size = new Size(123, 51);
+            BtnCensor.Size = new Size(150, 61);
             BtnCensor.TabIndex = 2;
             BtnCensor.Text = "审查稿件";
             BtnCensor.UseVisualStyleBackColor = true;
+            BtnCensor.Click += BtnCensor_Click;
             // 
             // BtnDrafting
             // 
             BtnDrafting.Font = new Font("黑体", 13.8F);
-            BtnDrafting.Location = new Point(233, 234);
+            BtnDrafting.Location = new Point(285, 281);
+            BtnDrafting.Margin = new Padding(4, 4, 4, 4);
             BtnDrafting.Name = "BtnDrafting";
-            BtnDrafting.Size = new Size(123, 51);
+            BtnDrafting.Size = new Size(150, 61);
             BtnDrafting.TabIndex = 3;
             BtnDrafting.Text = "拟定排期";
             BtnDrafting.UseVisualStyleBackColor = true;
@@ -85,9 +89,10 @@
             // 
             User.AutoSize = true;
             User.Font = new Font("宋体", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            User.Location = new Point(74, 11);
+            User.Location = new Point(90, 13);
+            User.Margin = new Padding(4, 0, 4, 0);
             User.Name = "User";
-            User.Size = new Size(56, 23);
+            User.Size = new Size(68, 28);
             User.TabIndex = 8;
             User.Text = "用户";
             // 
@@ -96,18 +101,19 @@
             LblPassword.AutoSize = true;
             LblPassword.Font = new Font("黑体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
             LblPassword.ForeColor = SystemColors.HotTrack;
-            LblPassword.Location = new Point(480, 421);
+            LblPassword.Location = new Point(587, 505);
+            LblPassword.Margin = new Padding(4, 0, 4, 0);
             LblPassword.Name = "LblPassword";
-            LblPassword.Size = new Size(119, 20);
+            LblPassword.Size = new Size(142, 24);
             LblPassword.TabIndex = 10;
             LblPassword.Text = "修改密码...";
             LblPassword.Click += LblPassword_Click;
             // 
             // 主编主页面
             // 
-            AutoScaleDimensions = new SizeF(9F, 20F);
+            AutoScaleDimensions = new SizeF(11F, 24F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(610, 450);
+            ClientSize = new Size(746, 540);
             Controls.Add(LblPassword);
             Controls.Add(User);
             Controls.Add(BtnDrafting);

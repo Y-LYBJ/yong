@@ -29,5 +29,12 @@ namespace Document_management_system
             this.Hide();//隐藏当前窗体
             form3.ShowDialog();
         }
+
+        private void BtnCensor_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            主编待处理稿件 form1 = new();
+            form1.Show();
+        }
     }
 }

@@ -81,6 +81,7 @@
             BtnState.TabIndex = 4;
             BtnState.Text = "稿件状态";
             BtnState.UseVisualStyleBackColor = true;
+            BtnState.Click += BtnState_Click;
             // 
             // User
             // 

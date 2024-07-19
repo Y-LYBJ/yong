@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace Document_management_system
 {
@@ -76,9 +77,13 @@ namespace Document_management_system
         }
 
         private void Choice_Click(object sender, EventArgs e)
-        {
-            groupBox1.Visible = true;
-            Choice.Enabled = false;
+        { 
+            if (this.dataGridView1.SelectedRows.Count > 0)
+            {
+                groupBox1.Visible = true;
+                Choice.Enabled = false;
+            }
+            else { MessageBox.Show("选中为空"); }
         }
 
         private void no_Click(object sender, EventArgs e)
@@ -110,6 +115,7 @@ namespace Document_management_system
                     cmd2.Connection = conn;
                     cmd2.ExecuteNonQuery();
                     conn.Close();
+
                     MessageBox.Show("分配成功", "提示");
                     NewSql();
                 }
