@@ -36,12 +36,11 @@ namespace Document_management_system
                 DataSet ds1 = new DataSet();
                 adapter.Fill(ds1, "Article");
                 dataGridView1.DataSource = ds1.Tables["Article"];
-                SqlDataReader mys = cmd.ExecuteReader();
+                conn.Close();
                 dataGridView1.Columns["article"].HeaderText = "稿件名称";
                 dataGridView1.Columns["checkState"].HeaderText = "稿件状态";
                 dataGridView1.Columns["auditor"].HeaderText = "审核员";
                 dataGridView1.Columns[2].Visible = false;
-                conn.Close();
 
             }
             catch
@@ -76,23 +75,30 @@ namespace Document_management_system
         }
         private void Detail_Click(object sender, EventArgs e)
         {
-            string state = dataGridView1.CurrentRow.Cells[1].Value.ToString();
-            if (state == "已审核")
+            if (dataGridView1.Rows.Count > 0)
             {
-                ArtPage.Article = dataGridView1.CurrentRow.Cells[0].Value.ToString();
-                ArtPage.Advice = dataGridView1.CurrentRow.Cells[2].Value.ToString();
-                SqlArt();
-                this.Hide();
-                编辑决定稿件去留 form1 = new();
-                form1.ShowDialog();
-                Show.Visible = false;
+                try
+                {
+                    string state = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+                    if (state == "已审核")
+                    {
+                        ArtPage.Article = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+                        ArtPage.Advice = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+                        SqlArt();
+                        this.Close();
+                        编辑决定稿件去留 form1 = new();
+                        form1.ShowDialog();
+                        Show.Visible = false;
+                    }
+                    else
+                    {
+                        Show.Text = "文章审核尚未通过";
+                        Show.Visible = true;
+                    }
+                }
+                catch (Exception ex) { MessageBox.Show("错误"); }
             }
-            else
-            {
-                Show.Text = "文章审核尚未通过";
-                Show.Visible = true;
-            }
-            
+            else { MessageBox.Show("选中为空！"); }
         }
     }
 }

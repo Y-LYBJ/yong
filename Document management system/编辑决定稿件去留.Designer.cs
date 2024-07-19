@@ -128,8 +128,9 @@
             btnRejection.Name = "btnRejection";
             btnRejection.Size = new Size(143, 54);
             btnRejection.TabIndex = 7;
-            btnRejection.Text = "退稿";
+            btnRejection.Text = "退回";
             btnRejection.UseVisualStyleBackColor = false;
+            btnRejection.Click += btnRejection_Click;
             // 
             // btnHired
             // 
@@ -142,6 +143,7 @@
             btnHired.TabIndex = 8;
             btnHired.Text = "录用";
             btnHired.UseVisualStyleBackColor = false;
+            btnHired.Click += btnHired_Click;
             // 
             // Close
             // 

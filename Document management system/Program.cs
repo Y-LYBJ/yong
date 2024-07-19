@@ -88,7 +88,7 @@ namespace Document_management_system
                 string sql = "UPDATE Author SET introduce = '" + Des + "'where account= '" + ShowPage.Account + "'";
                 SqlCommand cmd = new SqlCommand(sql);
                 cmd.Connection = conn;
-                int i = cmd.ExecuteNonQuery();
+                cmd.ExecuteNonQuery();
                 conn.Close();
                 ShowPage.Descreption = Des;
             }
