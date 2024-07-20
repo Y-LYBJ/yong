@@ -32,16 +32,18 @@
             BtnRevise = new Button();
             Close = new Button();
             groupBox1 = new GroupBox();
+            Cancel = new Button();
             OK = new Button();
             comboBox1 = new ComboBox();
             label2 = new Label();
-            Cancel = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // dataGridView1
             // 
+            dataGridView1.AllowUserToAddRows = false;
+            dataGridView1.AllowUserToDeleteRows = false;
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView1.BackgroundColor = SystemColors.Control;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -90,6 +92,16 @@
             groupBox1.TabStop = false;
             groupBox1.Visible = false;
             // 
+            // Cancel
+            // 
+            Cancel.Location = new Point(160, 92);
+            Cancel.Name = "Cancel";
+            Cancel.Size = new Size(72, 34);
+            Cancel.TabIndex = 3;
+            Cancel.Text = "取消";
+            Cancel.UseVisualStyleBackColor = true;
+            Cancel.Click += Cancel_Click;
+            // 
             // OK
             // 
             OK.Location = new Point(50, 92);
@@ -116,16 +128,6 @@
             label2.Size = new Size(100, 24);
             label2.TabIndex = 0;
             label2.Text = "选择期数：";
-            // 
-            // Cancel
-            // 
-            Cancel.Location = new Point(160, 92);
-            Cancel.Name = "Cancel";
-            Cancel.Size = new Size(72, 34);
-            Cancel.TabIndex = 3;
-            Cancel.Text = "取消";
-            Cancel.UseVisualStyleBackColor = true;
-            Cancel.Click += Cancel_Click;
             // 
             // 主编拟定排期
             // 

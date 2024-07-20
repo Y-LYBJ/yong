@@ -15,7 +15,6 @@ namespace Document_management_system
         public 编辑主页面()
         {
             InitializeComponent();
-            ///    Application.OpenForms["LoadChoice"].Hide();
         }
 
         private void Close_Click(object sender, EventArgs e)

@@ -16,7 +16,6 @@ namespace Document_management_system
         {
             InitializeComponent();
             User.Text = ShowPage.User;
-            Application.OpenForms["LoadChoice"].Hide();
         }
 
         private void Close_Click(object sender, EventArgs e)

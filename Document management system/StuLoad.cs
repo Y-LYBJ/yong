@@ -33,10 +33,11 @@ namespace Document_management_system
                 {
                     MessageBox.Show("登录成功！", "提示");
                     w1.Show();
-                    this.Hide();
+                    this.Close();
                     ShowPage.Account = Account.Text;
                     ShowPage.Password = Password.Text;
                     s.SqlAuthor();
+                    Application.OpenForms["LoadChoice"].Hide();
                 }
                 else MessageBox.Show("账号或密码错误");
             }
@@ -52,10 +53,11 @@ namespace Document_management_system
                 {
                     MessageBox.Show("登录成功！", "提示");
                     w2.Show();
-                    this.Hide();
+                    this.Close();
                     ShowPage.Account = Account.Text;
                     ShowPage.Password = Password.Text;
                     s.SqlAudior();
+                    Application.OpenForms["LoadChoice"].Hide();
                 }
                 else MessageBox.Show("账号或密码错误");
             }
@@ -71,10 +73,11 @@ namespace Document_management_system
                 {
                     MessageBox.Show("登录成功！", "提示");
                     w3.Show();
-                    this.Hide();
+                    this.Close();
                     ShowPage.Account = Account.Text;
                     ShowPage.Password = Password.Text;
                     s.SqlAudior();
+                    Application.OpenForms["LoadChoice"].Hide();
                 }
                 else MessageBox.Show("账号或密码错误");
             }

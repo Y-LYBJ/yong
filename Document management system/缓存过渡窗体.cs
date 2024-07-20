@@ -17,10 +17,6 @@ namespace Document_management_system
             InitializeComponent();
         }
 
-        private void 缓存过渡窗体_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void OK_Click(object sender, EventArgs e)
         {

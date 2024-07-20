@@ -10,13 +10,13 @@ namespace Document_management_system
         private void button1_Click(object sender, EventArgs e)
         {
             StuLoad stuLoad = new StuLoad();
-            stuLoad.Show();
+            stuLoad.ShowDialog();
         }
 
         private void teacher_Click(object sender, EventArgs e)
         {
             TeaLoad teacherLoad = new TeaLoad();
-            teacherLoad.Show();
+            teacherLoad.ShowDialog();
         }
     }
 }

@@ -63,7 +63,6 @@
             Name = "缓存过渡窗体";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "缓存过渡窗体";
-            Load += 缓存过渡窗体_Load;
             ResumeLayout(false);
             PerformLayout();
         }
