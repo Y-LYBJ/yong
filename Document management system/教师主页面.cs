@@ -54,9 +54,6 @@ namespace Document_management_system
 
         private void BtnManageManuscript_Click(object sender, EventArgs e)
         {
-            教师管理稿件 form3 = new 教师管理稿件();
-            this.Hide();//隐藏当前窗体
-            form3.ShowDialog();
         }
     }
 }

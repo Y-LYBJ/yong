@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,8 @@ namespace Document_management_system
         public 作者查看修改意见()
         {
             InitializeComponent();
+            txtReview.Text = ArtPage.Advice;
         }
+        
     }
 }

@@ -68,6 +68,7 @@
             button1.TabIndex = 2;
             button1.Text = "查看修改意见";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // 作者查询稿件
             // 

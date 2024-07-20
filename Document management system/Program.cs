@@ -142,43 +142,43 @@ namespace Document_management_system
             catch { MessageBox.Show("请输入正确的密码类型！"); }
         }
 
-        public void SqlEnroll(string Acccount,string Name,string Identity)    ///注册
+        public void SqlEnroll(string Acccount, string Name, string Identity)    ///注册
         {
-                SqlConnection conn = new SqlConnection();
-                conn.ConnectionString = "Data Source=192.168.1.6,1433;Initial Catalog=\"management system\";Integrated Security=True;User ID = sa;pwd = 123456";
-                conn.Open();
-                string sql1 = "INSERT INTO Load (account,id,organization) VALUES ('";
-                string sql2 = Acccount + "','" + Identity + "','" + Name + "')";
-                string sql = sql1 + sql2;
-                SqlCommand cmd = new SqlCommand(sql);
-                cmd.Connection = conn;
-                int i = cmd.ExecuteNonQuery();
-                conn.Close();
-                if (i > 0)
-                {
-                    MessageBox.Show("注册成功！", "提示");
-                }
-                else
-                {
-                    MessageBox.Show("注册失败！", "提示");
-                }
+            SqlConnection conn = new SqlConnection();
+            conn.ConnectionString = "Data Source=192.168.1.6,1433;Initial Catalog=\"management system\";Integrated Security=True;User ID = sa;pwd = 123456";
+            conn.Open();
+            string sql1 = "INSERT INTO Load (account,id,organization) VALUES ('";
+            string sql2 = Acccount + "','" + Identity + "','" + Name + "')";
+            string sql = sql1 + sql2;
+            SqlCommand cmd = new SqlCommand(sql);
+            cmd.Connection = conn;
+            int i = cmd.ExecuteNonQuery();
+            conn.Close();
+            if (i > 0)
+            {
+                MessageBox.Show("注册成功！", "提示");
+            }
+            else
+            {
+                MessageBox.Show("注册失败！", "提示");
+            }
         }
 
-
-          public class PublicationDataAccess
+        public class PublicationDataAccess
         {
+
             private string connectionString;
 
             public PublicationDataAccess(string connString)
             {
-            connectionString = connString;
+                connectionString = connString;
             }
 
             public PublicationSetting GetPublicationSetting()
             {
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
-                    string query = "SELECT Frequency, PublishedIssuesCount, LastPublishedDate FROM PublicationSettings WHERE Id = 1";
+                    string query = "SELECT Type, oid, Day FROM Teacher WHERE oid = (SELECT MAX(oid) FROM Teacher)";
                     using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
                         conn.Open();
@@ -188,9 +188,9 @@ namespace Document_management_system
                             {
                                 return new PublicationSetting
                                 {
-                                    Frequency = reader["Frequency"].ToString(),
-                                    PublishedIssuesCount = Convert.ToInt32(reader["PublishedIssuesCount"]),
-                                    LastPublishedDate = Convert.ToDateTime(reader["LastPublishedDate"])
+                                    Frequency = reader["Type"].ToString(),
+                                    PublishedIssuesCount = Convert.ToInt32(reader["oid"]),
+                                    LastPublishedDate = Convert.ToDateTime(reader["Day"])
                                 };
                             }
                         }
@@ -203,19 +203,18 @@ namespace Document_management_system
             {
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
-                    string query = "UPDATE PublicationSettings SET Frequency = @Frequency, PublishedIssuesCount = @PublishedIssuesCount, LastPublishedDate = @LastPublishedDate WHERE Id = 1";
+                    string str = "第" + Convert.ToString(setting.PublishedIssuesCount) + "期";
+                    string query = "INSERT INTO Teacher (Type,AllCount,Day) VALUES (@Type,@AllCount,@Day)";
                     using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
-                        cmd.Parameters.AddWithValue("@Frequency", setting.Frequency);
-                        cmd.Parameters.AddWithValue("@PublishedIssuesCount", setting.PublishedIssuesCount);
-                        cmd.Parameters.AddWithValue("@LastPublishedDate", setting.LastPublishedDate);
+                        cmd.Parameters.AddWithValue("@Type", setting.Frequency);
+                        cmd.Parameters.AddWithValue("@AllCount", str);
+                        cmd.Parameters.AddWithValue("@Day", setting.LastPublishedDate);
                         conn.Open();
                         cmd.ExecuteNonQuery();
                     }
                 }
-         }
+            }
+        }
     }
-}
-
-
 }

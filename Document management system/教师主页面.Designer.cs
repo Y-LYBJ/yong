@@ -33,7 +33,6 @@
             lblTeacher = new Label();
             BtnInput = new Button();
             BtnScheduling = new Button();
-            BtnManageManuscript = new Button();
             BtnSet = new Button();
             tipSet = new ToolTip(components);
             User = new Label();
@@ -46,7 +45,7 @@
             Close.BackgroundImage = Properties.Resources.关闭按钮;
             Close.BackgroundImageLayout = ImageLayout.Stretch;
             Close.FlatStyle = FlatStyle.Popup;
-            Close.Location = new Point(684, 13);
+            Close.Location = new Point(450, 11);
             Close.Margin = new Padding(2);
             Close.Name = "Close";
             Close.Size = new Size(48, 43);
@@ -68,7 +67,7 @@
             // BtnInput
             // 
             BtnInput.Font = new Font("黑体", 13.8F);
-            BtnInput.Location = new Point(251, 131);
+            BtnInput.Location = new Point(152, 105);
             BtnInput.Margin = new Padding(4);
             BtnInput.Name = "BtnInput";
             BtnInput.Size = new Size(232, 61);
@@ -80,7 +79,7 @@
             // BtnScheduling
             // 
             BtnScheduling.Font = new Font("黑体", 13.8F);
-            BtnScheduling.Location = new Point(251, 223);
+            BtnScheduling.Location = new Point(152, 203);
             BtnScheduling.Margin = new Padding(4);
             BtnScheduling.Name = "BtnScheduling";
             BtnScheduling.Size = new Size(232, 61);
@@ -89,28 +88,15 @@
             BtnScheduling.UseVisualStyleBackColor = true;
             BtnScheduling.Click += BtnScheduling_Click;
             // 
-            // BtnManageManuscript
-            // 
-            BtnManageManuscript.Enabled = false;
-            BtnManageManuscript.Font = new Font("黑体", 13.8F);
-            BtnManageManuscript.Location = new Point(251, 319);
-            BtnManageManuscript.Margin = new Padding(4);
-            BtnManageManuscript.Name = "BtnManageManuscript";
-            BtnManageManuscript.Size = new Size(232, 61);
-            BtnManageManuscript.TabIndex = 5;
-            BtnManageManuscript.Text = "管理稿件";
-            BtnManageManuscript.UseVisualStyleBackColor = true;
-            BtnManageManuscript.Click += BtnManageManuscript_Click;
-            // 
             // BtnSet
             // 
             BtnSet.BackgroundImage = Properties.Resources.设置按钮;
             BtnSet.BackgroundImageLayout = ImageLayout.Stretch;
             BtnSet.FlatStyle = FlatStyle.Popup;
-            BtnSet.Location = new Point(622, 440);
+            BtnSet.Location = new Point(446, 328);
             BtnSet.Margin = new Padding(4);
             BtnSet.Name = "BtnSet";
-            BtnSet.Size = new Size(82, 70);
+            BtnSet.Size = new Size(52, 45);
             BtnSet.TabIndex = 6;
             BtnSet.UseVisualStyleBackColor = true;
             BtnSet.Click += BtnSet_Click;
@@ -134,10 +120,9 @@
             // 
             AutoScaleDimensions = new SizeF(11F, 24F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(746, 540);
+            ClientSize = new Size(512, 383);
             Controls.Add(User);
             Controls.Add(BtnSet);
-            Controls.Add(BtnManageManuscript);
             Controls.Add(BtnScheduling);
             Controls.Add(BtnInput);
             Controls.Add(lblTeacher);
@@ -158,7 +143,6 @@
         private Label lblTeacher;
         private Button BtnInput;
         private Button BtnScheduling;
-        private Button BtnManageManuscript;
         private Button BtnSet;
         private ToolTip tipSet;
         private Label User;

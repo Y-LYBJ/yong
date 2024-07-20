@@ -36,20 +36,22 @@
             // txtReview
             // 
             txtReview.Font = new Font("宋体", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            txtReview.Location = new Point(29, 94);
+            txtReview.Location = new Point(35, 113);
+            txtReview.Margin = new Padding(4, 4, 4, 4);
             txtReview.Multiline = true;
             txtReview.Name = "txtReview";
-            txtReview.Size = new Size(708, 322);
+            txtReview.ReadOnly = true;
+            txtReview.Size = new Size(864, 386);
             txtReview.TabIndex = 0;
-            txtReview.Text = "（200字）";
             // 
             // lblReview
             // 
             lblReview.AutoSize = true;
             lblReview.Font = new Font("宋体", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            lblReview.Location = new Point(29, 59);
+            lblReview.Location = new Point(35, 71);
+            lblReview.Margin = new Padding(4, 0, 4, 0);
             lblReview.Name = "lblReview";
-            lblReview.Size = new Size(125, 23);
+            lblReview.Size = new Size(152, 28);
             lblReview.TabIndex = 1;
             lblReview.Text = "修改意见：";
             // 
@@ -57,21 +59,23 @@
             // 
             Close.BackgroundImage = Properties.Resources.关闭按钮;
             Close.BackgroundImageLayout = ImageLayout.Stretch;
-            Close.Location = new Point(701, 12);
+            Close.Location = new Point(872, 14);
+            Close.Margin = new Padding(4, 4, 4, 4);
             Close.Name = "Close";
-            Close.Size = new Size(54, 44);
+            Close.Size = new Size(51, 48);
             Close.TabIndex = 2;
             Close.UseVisualStyleBackColor = true;
             // 
             // 作者查看修改意见
             // 
-            AutoScaleDimensions = new SizeF(9F, 20F);
+            AutoScaleDimensions = new SizeF(11F, 24F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(767, 450);
+            ClientSize = new Size(937, 540);
             Controls.Add(Close);
             Controls.Add(lblReview);
             Controls.Add(txtReview);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(4, 4, 4, 4);
             Name = "作者查看修改意见";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "作者查看修改意见";

@@ -66,7 +66,7 @@
             // 
             BtnCensor.Font = new Font("黑体", 13.8F);
             BtnCensor.Location = new Point(285, 161);
-            BtnCensor.Margin = new Padding(4, 4, 4, 4);
+            BtnCensor.Margin = new Padding(4);
             BtnCensor.Name = "BtnCensor";
             BtnCensor.Size = new Size(150, 61);
             BtnCensor.TabIndex = 2;
@@ -78,12 +78,13 @@
             // 
             BtnDrafting.Font = new Font("黑体", 13.8F);
             BtnDrafting.Location = new Point(285, 281);
-            BtnDrafting.Margin = new Padding(4, 4, 4, 4);
+            BtnDrafting.Margin = new Padding(4);
             BtnDrafting.Name = "BtnDrafting";
             BtnDrafting.Size = new Size(150, 61);
             BtnDrafting.TabIndex = 3;
             BtnDrafting.Text = "拟定排期";
             BtnDrafting.UseVisualStyleBackColor = true;
+            BtnDrafting.Click += BtnDrafting_Click;
             // 
             // User
             // 
