@@ -27,6 +27,13 @@ namespace Document_management_system
         public static string Descreption = "(100×Ö)";
         public static string Password = "Password";
     }
+    public class PublicationSetting
+    {
+        public int Id { get; set; }
+        public string Frequency { get; set; }
+        public int PublishedIssuesCount { get; set; }
+        public DateTime LastPublishedDate { get; set; }
+    }
 
     public class ArtPage
     {
@@ -158,7 +165,57 @@ namespace Document_management_system
         }
 
 
+          public class PublicationDataAccess
+        {
+            private string connectionString;
+
+            public PublicationDataAccess(string connString)
+            {
+            connectionString = connString;
+            }
+
+            public PublicationSetting GetPublicationSetting()
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    string query = "SELECT Frequency, PublishedIssuesCount, LastPublishedDate FROM PublicationSettings WHERE Id = 1";
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        conn.Open();
+                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                return new PublicationSetting
+                                {
+                                    Frequency = reader["Frequency"].ToString(),
+                                    PublishedIssuesCount = Convert.ToInt32(reader["PublishedIssuesCount"]),
+                                    LastPublishedDate = Convert.ToDateTime(reader["LastPublishedDate"])
+                                };
+                            }
+                        }
+                    }
+                }
+                return null;
+            }
+
+            public void UpdatePublicationSetting(PublicationSetting setting)
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    string query = "UPDATE PublicationSettings SET Frequency = @Frequency, PublishedIssuesCount = @PublishedIssuesCount, LastPublishedDate = @LastPublishedDate WHERE Id = 1";
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@Frequency", setting.Frequency);
+                        cmd.Parameters.AddWithValue("@PublishedIssuesCount", setting.PublishedIssuesCount);
+                        cmd.Parameters.AddWithValue("@LastPublishedDate", setting.LastPublishedDate);
+                        conn.Open();
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+         }
     }
+}
 
 
 }
